@@ -1,0 +1,1086 @@
+*{
+    margin: 0;
+    padding: 0%;    
+}
+
+.paginaInicialblink
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.04fr 0.1fr 2fr 0.001fr;
+    grid-template-areas: 
+    "titulo"
+    "logo"
+    "historia"
+    "footer";
+}
+
+.tituloPrincipal
+{
+    grid-area: titulo;
+}
+
+.headerBlink
+{
+    grid-area: logo;
+}
+
+
+
+
+.listaBlink
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.letraRosa
+{
+    grid-area: historia;
+}
+
+.footerBlink
+{
+    grid-area: footer;
+}
+
+.footerBlink
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px){
+    .paginaInicialblink
+    {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.01fr 0.05fr 1fr 0.01fr;
+    grid-template-areas: 
+    "titulo"
+    "logo"
+    "historia"
+    "footer";
+}
+
+.inicioBlink
+{
+    background-color: #0a9396;
+    color: #ff006d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.breveHistoria
+{
+    background-color: #0a9396;
+    color: #ff006d; 
+}
+
+.paginaInicialblink
+{
+    width: 100vw;
+}
+
+.listaBlink
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.headerBlink img 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+
+@media screen and (max-width: 800px){
+    .paginaInicialblink
+    {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.01fr 0.05fr 1fr 0.01fr;
+    grid-template-areas: 
+    "titulo"
+    "logo"
+    "historia"
+    "footer";
+}
+
+.inicioBlink
+{
+    background-color: #0a9396;
+    color: #ff006d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.breveHistoria
+{
+    background-color: #0a9396;
+    color: #ff006d; 
+}
+
+.paginaInicialblink
+{
+    width: 100vw;
+}
+
+.listaBlink
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.headerBlink img 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+}
+
+
+
+
+
+
+/*TITULO PRINCIPAL DE LA PAGINA */
+
+.tituloPrincipal
+{
+    color: #219ebc;
+    font-weight: 200;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #ff006d;
+}
+
+.logoBlink
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+/*BREVE HISTORIA DE BLINK*/
+
+.paginaPrincipal
+{
+    background-image: url(https://www.vhv.rs/dpng/d/564-5648798_blink-182-logo-blink-182-hd-png-download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+/*SUBTITULO*/
+
+.subTitulo
+{
+    text-align: center;
+    background-color: #ff006d;
+    color: #219ebc;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
+
+/*PARRAFOS*/
+
+.letraRosa
+{
+    color: #ff006d;
+    font-family: 'Fredoka';
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-weight: bold;
+    border: 1px dashed black;
+}
+
+
+/*LISTAS DE PAGINA PRINCIPAL*/
+
+.listaBlink li
+{
+    display: inline-block;
+    padding-left:3px;
+    padding-right:3px;
+    font-weight: bold;
+    list-style-type: none;
+    margin-top: 25px;
+   
+}
+
+/*SECCIONES DE LA PAGINA*/
+
+.seccionesPagina
+{
+    text-decoration: none;
+    display: block;
+    position: relative;
+    width: 25%;
+    font-size: 14px;
+}
+
+
+/*FOOTER*/
+
+footer
+{
+    margin-top: 30px;
+    text-align: right;
+    
+}
+
+/*INTEGRANTES*/
+
+.integrantesBlink182
+{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.3fr 0.2fr 0.2fr 0.02fr;
+    grid-template-areas: 
+    "integrantes integrantes"
+    "tom tom"
+    "travis travis"
+    "volver footer";
+}
+
+.mainMark
+{
+    grid-area: integrantes;
+}
+
+.mainTom
+{
+    grid-area: tom;
+}
+
+
+.mainTravis
+{
+    grid-area: travis;
+}
+
+.volverPaginaa
+{
+    grid-area: volver;
+}
+
+.footerIntegrantes
+{
+    grid-area: footer;
+}
+
+.volverPaginaa
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerIntegrantes
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px){
+    .integrantesBlink
+    {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr ;
+        grid-template-areas:  
+        "integrantes"
+        "tom"
+        "travis"
+        "volver"
+        "footer";
+    }
+}
+
+
+
+.integrantesBlink
+{
+    background-color: #ff006d;
+    color: #219ebc;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.articleMark
+{
+    background-image: url(../imagenes/Blink-182-Logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.markHoppus
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-style: italic;
+    color: blue;
+}
+
+.introduccionMark
+{
+    font-family: 'league gothic';
+    font-size: 25px;
+    margin-top: 35px;
+    color: #ff006d;
+    padding: 10px 10px 10px 10px;
+}
+
+.otrosTrabajos
+{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-style: italic;
+    color: #219ebc;
+}
+
+.otros__Trabajos
+{
+    font-family: 'league gothic';
+    font-size: 25px;
+    margin-top: 15px;
+    color: #ff006d;
+    padding: 10px 10px 10px 10px; 
+}
+
+.vidaMark
+{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-style: italic;
+    color: #219ebc;
+}
+
+.vida__Mark
+{
+    font-family: 'league gothic';
+    font-size: 25px;
+    margin-top: 15px;
+    color: #ff006d;
+    padding: 10px 10px 10px 10px;  
+}
+
+.fotoMark
+{
+   margin-top: 35px;
+}
+
+.foto__Mark
+{
+    color: #219ebc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
+}
+
+.articleTom
+{
+    background-image: url(../imagenes/descarga.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tomDelonge
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-style: italic;
+    color: blue;
+}
+
+.introduccionTom
+{
+    font-family: 'league gothic';
+    font-size: 25px;
+    margin-top: 35px;
+    color: #ff006d;
+    padding: 10px 10px 10px 10px;
+}
+
+.vidaTom
+{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-style: italic;
+    color: #219ebc; 
+}
+
+.vida__Tom
+{
+    font-family: 'league gothic';
+    font-size: 25px;
+    margin-top: 15px;
+    color: #ff006d;
+    padding: 10px 10px 10px 10px; 
+}
+
+.fotoTom
+{
+    text-align: right;
+    margin-top: 15px;
+}
+
+.foto__Tom
+{
+    color: #0a9396;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
+}
+
+.articleTravis
+{
+    background-image: url(../imagenes/Blink-182-Logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.travisBarker
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-style: italic;
+    color: #219ebc;
+}
+
+.introduccionTravis
+{
+    font-family: 'league gothic';
+    font-size: 25px;
+    margin-top: 35px;
+    color: #ff006d;
+    padding: 10px 10px 10px 10px;  
+}
+
+.vidaTravis
+{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-style: italic;
+    color: #219ebc;
+}
+
+.vida__Travis
+{
+    font-family: 'league gothic';
+    font-size: 25px;
+    margin-top: 15px;
+    color: #ff006d;
+    padding: 10px 10px 10px 10px; 
+}
+
+.fueraMusica
+{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-style: italic;
+    color: #219ebc;  
+}
+
+.fuera__Musica
+{
+    font-family: 'league gothic';
+    font-size: 25px;
+    margin-top: 15px;
+    color: #ff006d;
+    padding: 10px 10px 10px 10px;  
+}
+
+.fotoTravis
+{
+    text-align: right;
+    margin-top: 15px;  
+}
+
+.foto__Travis
+{
+    color: #219ebc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
+}
+
+.volverPaginaa  
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.volver__Paginaa  
+{
+    text-decoration: none;
+    color: #ff006d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*HISTORIA DE LA BANDA*/
+
+.historiaBlink
+{
+    text-align: center;
+    color: #ff006d;
+    background-color: #219ebc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.articuloPrimerospasos
+{
+    
+    font-family: 'Kanit';
+    background-image: url(https://m.media-amazon.com/images/I/41V8Y9yXtCL._AC_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    line-height: 30px;
+
+
+}    
+
+.imagenBanda
+{
+    text-align: center;
+    background-color: #219ebc;
+}
+
+.trioHistoria
+{
+    text-align: center;
+    margin-top: 15px;
+    font: caption;
+    font-size: 25px;
+    color: #ff006d;
+    text-decoration: underline;
+}
+
+.articuloSegundospasos
+{
+    
+    font-family: 'Kanit';
+    background-image: url(https://www.rocktotal.com/wp-content/uploads/2016/06/Blink182.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: fuchsia;
+    font-weight: bold;
+    padding: 10px 10px 10px 10px;
+    line-height: 30px; 
+}
+
+.imagenesBanda
+{
+    
+    background-color: #219ebc;
+    padding: 20px 20px 20px 20px;
+}
+
+.ultimoShow
+{
+    margin-top: 15px;
+    color: #ff006d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.volverApagina
+{
+    margin-left: 1100px;
+    margin-bottom: 10px;
+
+}
+
+.volver__Apagina
+{
+    text-decoration: none;
+    color: #ff006d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*CONTACTO*/
+
+
+
+.fondoAzul
+{
+    background-color: #219ebc;
+}
+
+
+.blinkRosa
+{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.dejaComentario
+{
+    margin-top: 5px;
+}
+
+.deja__Comentario
+{
+    font-family: 'Open Sans';
+    color: #ff006d;
+    margin-left: 5px;
+}
+
+.tablaBlink
+{
+    font-family: 'Open Sans';
+    color: #ff006d;
+}
+
+.labelNombre
+{
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.label__Nombre
+{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.labelCorreo
+{
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.label__Correo
+{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.labelGenero
+{
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.label__Genero
+{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.textBlink
+{
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.submitBlink
+{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.volverPaginaprincipal
+{
+    margin-top: 10px;
+    margin-left: 1100px;
+    font-family: 'Open Sans';
+}
+
+.volver__Paginaprincipal
+{
+    color: #ff006d;
+    text-decoration: none;
+}
+
+/*DISCOGRAFIA*/
+
+.discografiaCompleta
+{
+    text-align: center;
+    color: #ff0054;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: #219ebc;
+}
+
+.buddhaDisco
+{
+    font-family: 'Josefin Sans';
+    margin-top: 20px;
+    margin-left: 7px;
+    color: #184e77;
+    text-decoration: underline;
+}
+
+.imagenBuddha
+{
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.listaBuddha
+{
+    font-family: 'Josefin Sans';
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #00296b;
+}
+
+.primerCd
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.iframeBuddha
+{
+    margin-top: 20px;
+}
+
+.cheshireDisco
+{
+    font-family: 'Josefin Sans';
+    margin-top: 20px;
+    margin-left: 7px;
+    color: #184e77;
+    text-decoration: underline;
+}
+
+.imagenCheshire
+{
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.listaCheshire
+{
+    font-family: 'Josefin Sans';
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #00296b;
+}
+
+.escuchaCheshire
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.iframeCheshire
+{
+    margin-top: 20px;  
+}
+
+
+.dudeRanch
+{
+    font-family: 'Josefin Sans';
+    margin-top: 20px;
+    margin-left: 7px;
+    color: #184e77; 
+    text-decoration: underline;
+}
+
+.imagenDude
+{
+    margin-top: 5px;
+    margin-left: 7px; 
+}
+
+.listaDude
+{
+    font-family: 'Josefin Sans';
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #00296b;
+}
+
+.escuchaDude
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.iframeDude
+{
+    margin-top: 20px;
+}
+
+.enemaOfstate
+{
+    font-family: 'Josefin Sans';
+    margin-top: 20px;
+    margin-left: 7px;
+    color: #184e77;  
+    text-decoration: underline;
+}
+
+.imagenEnema
+{
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.listaEnema
+{
+    font-family: 'Josefin Sans';
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #00296b; 
+}
+
+.escuchaEnema
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.iframeEnema
+{
+    margin-top: 20px; 
+}
+
+.takePants
+{
+    font-family: 'Josefin Sans';
+    margin-top: 20px;
+    margin-left: 7px;
+    color: #184e77; 
+    text-decoration: underline;
+}
+
+.imagenPants
+{
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.listaPants
+{
+    font-family: 'Josefin Sans';
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #00296b;  
+}
+
+.escuchaPants
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.iframePants
+{
+    margin-top: 20px;  
+}
+
+.blinkAlbum
+{
+    font-family: 'Josefin Sans';
+    margin-top: 20px;
+    margin-left: 7px;
+    color: #184e77; 
+    text-decoration: underline;
+}
+
+.imagenblinkAlbum
+{
+    margin-top: 5px;
+    margin-left: 7px;  
+}
+
+.listaBlinkalbum
+{
+    font-family: 'Josefin Sans';
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #00296b;  
+}
+
+.escuchaBlink
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.iframeBlinkalbum
+{
+    margin-top: 20px; 
+}
+
+.neiGhborhoods
+{
+    font-family: 'Josefin Sans';
+    margin-top: 20px;
+    margin-left: 7px;
+    color: #184e77; 
+    text-decoration: underline;
+}
+
+.imagenNeighborhoods
+{
+    margin-top: 5px;
+    margin-left: 7px; 
+}
+
+.listaNeighborhoods
+{
+    font-family: 'Josefin Sans';
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #00296b;  
+}
+
+.escuchaNeighborhoods
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.iframeNeighborhoods
+{
+    margin-top: 20px;   
+}
+
+.caLifornia
+{
+    font-family: 'Josefin Sans';
+    margin-top: 20px;
+    margin-left: 7px;
+    color: #184e77; 
+    text-decoration: underline;
+}
+
+.imagenCalifornia
+{
+    margin-top: 5px;
+    margin-left: 7px;  
+}
+
+.listaCalifornia
+{
+    font-family: 'Josefin Sans';
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #00296b; 
+}
+
+.escuchaCalifornia
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.iframeCalifornia
+{
+    margin-top: 20px; 
+}
+
+.niNe 
+{
+    font-family: 'Josefin Sans';
+    margin-top: 20px;
+    margin-left: 7px;
+    color: #184e77;  
+    text-decoration: underline;
+}
+
+.imagenNine
+{
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.listaNine
+{
+    font-family: 'Josefin Sans';
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 10px 10px 10px 10px;
+    color: #00296b; 
+}
+
+.escuchaNine
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.iframeNine
+{
+    margin-top: 20px;   
+}
+
+.vuelvePaginaprincipal
+{
+    margin-top: 10px;
+    margin-left: 1150px;
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.vuelve__Paginaprincipal
+{
+    text-decoration: none;
+    color: #00296b;
+}
