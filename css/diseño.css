@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0%;    
+    padding: 0%;   
 }
 
 .paginaInicialblink
@@ -24,9 +24,6 @@
 {
     grid-area: logo;
 }
-
-
-
 
 .listaBlink
 {
@@ -110,6 +107,7 @@
     "footer";
 }
 
+
 .inicioBlink
 {
     background-color: #0a9396;
@@ -141,8 +139,8 @@
     margin-left: auto;
     margin-right: auto;
 }
-
 }
+
 
 
 
@@ -154,8 +152,6 @@
 .tituloPrincipal
 {
     color: #219ebc;
-    font-weight: 200;
-    font-weight: bold;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -300,26 +296,55 @@ footer
 }
 
 @media screen and (max-width: 500px){
-    .integrantesBlink
-    {
-        display: grid;
-        grid-template-columns: 1fr ;
-        grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr ;
-        grid-template-areas:  
-        "integrantes"
-        "tom"
-        "travis"
-        "volver"
-        "footer";
-    }
+    .integrantesBlink182{
+    display: grid ;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr ;
+    grid-template-areas: 
+    "integrantes"
+    "tom"
+    "travis"
+    "volver"
+    "footer";
 }
 
 
 
+.losIntegrantes{
+    width: 100vw;
+    background-color: #219ebc;
+    color: #ff006d;
+    font-size: 25px;
+}
+}
+
+@media screen and (max-width: 800px){
+    .integrantesBlink182{
+    display: grid ;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr ;
+    grid-template-areas: 
+    "integrantes"
+    "tom"
+    "travis"
+    "volver"
+    "footer";
+}
+
+
+.losIntegrantes{
+    width: 100vw;
+    background-color: #219ebc;
+    color: #ff006d;
+    font-size: 25px;
+}
+}
+
+
 .integrantesBlink
 {
-    background-color: #ff006d;
-    color: #219ebc;
+    background-color: #219ebc;
+    color: #ff006d;
     text-align: center;
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -737,6 +762,183 @@ footer
 
 /*DISCOGRAFIA*/
 
+.discografiaBlink
+{
+   display: grid;
+    grid-template-columns: 0.01fr 0.01fr ;
+    grid-template-rows: 0.02fr 1fr 1fr 1fr 1fr 1fr 0.02fr;
+    grid-template-areas: 
+    "discografia discografia"
+    "budha cheshire"
+    "dude enema"
+    "take blink182"
+    "nei california"
+    "nine nine"
+    "volver footer";
+    overflow-x: hidden;
+}
+
+.discografiaCompleta
+{
+    width: 100vw;
+}
+
+.discografiaCompleta
+{
+    grid-area: discografia;
+}
+
+.discoBudha
+{
+    grid-area: budha;
+}
+
+.discoCheshire
+{
+    grid-area: cheshire;
+}
+
+.discoDude
+{
+    grid-area: dude;
+}
+
+.discoEnema
+{
+    grid-area: enema;
+}
+
+.discoTake
+{
+    grid-area: take;
+}
+
+.discoBlink 
+{
+    grid-area: blink182;
+}
+
+.discoNei
+{
+    grid-area: nei;
+}
+
+.discoCalifornia
+{
+    grid-area: california;
+}
+
+.discoNine
+{
+    grid-area: nine;
+}
+
+.footerBlink182
+{
+    grid-area: footer;
+}
+
+.vuelvePaginaprincipal
+{
+    grid-area: volver;
+}
+
+.footerBlink182
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vuelvePaginaprincipal
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px){
+    .discografiaBlink
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr ;
+        grid-template-areas: 
+        "discografia"
+        "budha"
+        "cheshire"
+        "dude"
+        "enema"
+        "take"
+        "blink182"
+        "nei"
+        "california"
+        "nine"
+        "volver"
+        "footer";
+    }
+
+ .discografiaBlink
+ {
+     overflow-x: hidden;
+ }
+
+.discografia__Completa
+{
+    width: 100vw;
+    text-align: center;
+}
+
+
+.footerBlink182
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vuelvePaginaprincipal
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+@media screen and (max-width: 800px){
+    .discografiaBlink
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr ;
+        grid-template-areas: 
+        "discografia"
+        "budha"
+        "cheshire"
+        "dude"
+        "enema"
+        "take"
+        "blink182"
+        "nei"
+        "california"
+        "nine"
+        "volver"
+        "footer";
+    }
+
+    .discografiaBlink
+    {
+        overflow-x: hidden;
+    }
+
+    .discografia__Completa
+    {
+        width: 100vw;
+        text-align: center;
+    }
+}
+
 .discografiaCompleta
 {
     text-align: center;
@@ -744,13 +946,14 @@ footer
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     background-color: #219ebc;
+   
 }
 
 .buddhaDisco
 {
     font-family: 'Josefin Sans';
     margin-top: 20px;
-    margin-left: 7px;
+    margin-left: 6px;
     color: #184e77;
     text-decoration: underline;
 }
@@ -758,7 +961,7 @@ footer
 .imagenBuddha
 {
     margin-top: 5px;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 
 .listaBuddha
@@ -774,19 +977,21 @@ footer
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 5px;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 
 .iframeBuddha
 {
     margin-top: 20px;
+    width: 350px;
+    height: 400px;
 }
 
 .cheshireDisco
 {
     font-family: 'Josefin Sans';
     margin-top: 20px;
-    margin-left: 7px;
+    margin-left: 6px;
     color: #184e77;
     text-decoration: underline;
 }
@@ -794,7 +999,7 @@ footer
 .imagenCheshire
 {
     margin-top: 5px;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 
 .listaCheshire
@@ -810,12 +1015,14 @@ footer
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 5px;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 
 .iframeCheshire
 {
     margin-top: 20px;  
+    width: 350px;
+    height: 400px;
 }
 
 
@@ -823,7 +1030,7 @@ footer
 {
     font-family: 'Josefin Sans';
     margin-top: 20px;
-    margin-left: 7px;
+    margin-left: 6px;
     color: #184e77; 
     text-decoration: underline;
 }
@@ -831,7 +1038,7 @@ footer
 .imagenDude
 {
     margin-top: 5px;
-    margin-left: 7px; 
+    margin-left: 6px;
 }
 
 .listaDude
@@ -847,19 +1054,21 @@ footer
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 5px;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 
 .iframeDude
 {
     margin-top: 20px;
+    width: 350px;
+    height: 400px;
 }
 
 .enemaOfstate
 {
     font-family: 'Josefin Sans';
     margin-top: 20px;
-    margin-left: 7px;
+    margin-left: 6px;
     color: #184e77;  
     text-decoration: underline;
 }
@@ -867,7 +1076,7 @@ footer
 .imagenEnema
 {
     margin-top: 5px;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 
 .listaEnema
@@ -883,19 +1092,21 @@ footer
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 5px;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 
 .iframeEnema
 {
     margin-top: 20px; 
+    width: 350px;
+    height: 400px;
 }
 
 .takePants
 {
     font-family: 'Josefin Sans';
     margin-top: 20px;
-    margin-left: 7px;
+    margin-left: 6px;
     color: #184e77; 
     text-decoration: underline;
 }
@@ -903,7 +1114,7 @@ footer
 .imagenPants
 {
     margin-top: 5px;
-    margin-left: 7px;
+   margin-left: 6px;
 }
 
 .listaPants
@@ -919,19 +1130,21 @@ footer
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 5px;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 
 .iframePants
 {
-    margin-top: 20px;  
+    margin-top: 20px; 
+    width: 350px;
+    height: 400px; 
 }
 
 .blinkAlbum
 {
     font-family: 'Josefin Sans';
     margin-top: 20px;
-    margin-left: 7px;
+    margin-left: 6px;
     color: #184e77; 
     text-decoration: underline;
 }
@@ -939,7 +1152,7 @@ footer
 .imagenblinkAlbum
 {
     margin-top: 5px;
-    margin-left: 7px;  
+    margin-left: 6px;  
 }
 
 .listaBlinkalbum
@@ -955,19 +1168,21 @@ footer
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 5px;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 
 .iframeBlinkalbum
 {
-    margin-top: 20px; 
+    margin-top: 20px;
+    width: 350px;
+    height: 400px; 
 }
 
 .neiGhborhoods
 {
     font-family: 'Josefin Sans';
     margin-top: 20px;
-    margin-left: 7px;
+    margin-left: 6px;
     color: #184e77; 
     text-decoration: underline;
 }
@@ -975,7 +1190,9 @@ footer
 .imagenNeighborhoods
 {
     margin-top: 5px;
-    margin-left: 7px; 
+    margin-left: 6px;
+    width: 350px;
+    height: 300px;
 }
 
 .listaNeighborhoods
@@ -991,19 +1208,21 @@ footer
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 5px;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 
 .iframeNeighborhoods
 {
-    margin-top: 20px;   
+    margin-top: 20px;  
+    width: 350px;
+    height: 400px; 
 }
 
 .caLifornia
 {
     font-family: 'Josefin Sans';
     margin-top: 20px;
-    margin-left: 7px;
+    margin-left: 6px;
     color: #184e77; 
     text-decoration: underline;
 }
@@ -1011,7 +1230,7 @@ footer
 .imagenCalifornia
 {
     margin-top: 5px;
-    margin-left: 7px;  
+    margin-left: 6px;
 }
 
 .listaCalifornia
@@ -1027,19 +1246,21 @@ footer
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 5px;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 
 .iframeCalifornia
 {
     margin-top: 20px; 
+    width: 350px;
+    height: 400px;
 }
 
 .niNe 
 {
     font-family: 'Josefin Sans';
     margin-top: 20px;
-    margin-left: 7px;
+    margin-left: 6px;
     color: #184e77;  
     text-decoration: underline;
 }
@@ -1047,7 +1268,7 @@ footer
 .imagenNine
 {
     margin-top: 5px;
-    margin-left: 7px;
+     margin-left: 6px;
 }
 
 .listaNine
@@ -1063,19 +1284,20 @@ footer
 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 5px;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 
 .iframeNine
 {
-    margin-top: 20px;   
+    margin-top: 20px; 
+    width: 350px;
+    height: 400px;  
 }
 
 .vuelvePaginaprincipal
 {
     margin-top: 10px;
-    margin-left: 1150px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -1083,4 +1305,9 @@ footer
 {
     text-decoration: none;
     color: #00296b;
+}
+
+.footerBlink182
+{
+    margin-bottom: 30px;
 }
