@@ -15,7 +15,7 @@
     "footer";
 }
 
-.tituloPrincipal
+.inicioBlink h3
 {
     grid-area: titulo;
 }
@@ -149,7 +149,7 @@
 
 /*TITULO PRINCIPAL DE LA PAGINA */
 
-.tituloPrincipal
+.inicioBlink h3
 {
     color: #219ebc;
     font-size: 30px;
@@ -231,6 +231,34 @@
     font-size: 14px;
 }
 
+@keyframes aparecer{
+    0% {opacity: 0%;}
+    20% {opacity: 20%;}
+    40% {opacity: 40%;}
+    60% {opacity: 60%;}
+    80% {opacity: 80%;}
+    100% {opacity: 100%;}
+}
+
+.seccionesPagina{
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+}
+
+.headerBlink img
+{
+    height: 250px;
+    filter: none;
+    transition: height 3s;
+}
+
+.headerBlink img:hover
+{
+    height: 350px;
+    filter: grayscale(50%);
+}
 
 /*FOOTER*/
 
@@ -357,7 +385,8 @@ footer
     background-position: center;
     background-size: cover;
 }
-.markHoppus
+
+.articleMark h3
 {
     text-align: center;
     margin-top: 30px;
@@ -578,78 +607,160 @@ footer
 
 /*HISTORIA DE LA BANDA*/
 
+.lahistoriaBlink
+{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr ;
+    grid-template-rows: 0.02fr 0.03fr 0.01fr;
+    grid-template-areas: 
+    "titulo titulo"
+    "texto texto"
+    "volver footer";
+}
+
+.historiaBlink
+{
+    grid-area: titulo;
+}
+
+.articuloPrimerospasos
+{
+    grid-area: texto;
+}
+
+.volverApagina
+{
+    grid-area: volver;
+}
+
+.footerHistoria
+{
+    grid-area: footer;
+}
+
+.volverApagina
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerHistoria
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px){
+    .lahistoriaBlink
+    {
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr ;
+        grid-template-rows: 0.02fr 0.03fr 0.01fr;
+        grid-template-areas: 
+        "titulo titulo"
+        "texto texto"
+        "volver footer";
+    }
+
+    .historiaBlink
+    {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width:500px){
+    .lahistoriaBlink
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.02fr 0.03fr 0.01fr 0.01fr;
+        grid-template-areas: 
+        "titulo"
+        "texto"
+        "volver"
+        "footer";
+    }
+
+    .historiaBlink
+    {
+        width: 100vw;
+    }
+}
+
 .historiaBlink
 {
     text-align: center;
     color: #ff006d;
     background-color: #219ebc;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
 }
 
 .articuloPrimerospasos
 {
     
     font-family: 'Kanit';
-    background-image: url(https://m.media-amazon.com/images/I/41V8Y9yXtCL._AC_.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     color: red;
     font-weight: bold;
     padding: 10px 10px 10px 10px;
     line-height: 30px;
-
-
-}    
-
-.imagenBanda
-{
-    text-align: center;
-    background-color: #219ebc;
-}
-
-.trioHistoria
-{
-    text-align: center;
-    margin-top: 15px;
-    font: caption;
-    font-size: 25px;
-    color: #ff006d;
-    text-decoration: underline;
-}
-
-.articuloSegundospasos
-{
-    
-    font-family: 'Kanit';
-    background-image: url(https://www.rocktotal.com/wp-content/uploads/2016/06/Blink182.png);
+    background-image: url(../imagenes/Blink-182-Logo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: fuchsia;
-    font-weight: bold;
-    padding: 10px 10px 10px 10px;
-    line-height: 30px; 
-}
-
-.imagenesBanda
-{
+    background-position: center;
     
-    background-color: #219ebc;
-    padding: 20px 20px 20px 20px;
+}    
+
+.galeriaBlink
+{
+    background-color: #ff0054;
+    color: #219ebc;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
-.ultimoShow
+.imagen__Travis
 {
-    margin-top: 15px;
-    color: #ff006d;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    width: 600px;
+    height: 500px;
+}
+
+.imagen__Tom
+{
+    width: 600px;
+    height: 500px;
+}
+
+.imagen__Mark
+{
+    width: 300;
+    height: 450px;
+}
+
+.blink__Caricatura
+{
+    width: 700px;
+    height: 500px;
+}
+
+.blink__Recital3
+{
+    width: 420px;
+    height: 350px;
+}
+
+.blink__Recital2
+{
+    width: 350px;
+    height: 350px;
 }
 
 .volverApagina
 {
-    margin-left: 1100px;
-    margin-bottom: 10px;
-
+   margin-bottom: 10px;
 }
 
 .volver__Apagina
@@ -662,6 +773,51 @@ footer
 
 /*CONTACTO*/
 
+.fondoAzul
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.02fr 0.01fr 0.02fr 0.01fr;
+    grid-template-areas: 
+    "logo logo"
+    "comentario comentario"
+    "formulario formulario"
+    "volver footer";
+}
+
+.blinkRosa
+{
+    grid-area: logo;
+}
+
+.dejaComentario
+{
+    grid-area: comentario;
+}
+
+.tablaBlink
+{
+    grid-area: formulario;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.instagramBlink
+{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volverPaginaprincipal
+{
+    grid-area: volver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 .fondoAzul
@@ -689,14 +845,10 @@ footer
     margin-left: 5px;
 }
 
-.tablaBlink
+.labelNombre
 {
     font-family: 'Open Sans';
     color: #ff006d;
-}
-
-.labelNombre
-{
     display: block;
     margin-top: 10px;
     margin-left: 5px;
@@ -713,6 +865,8 @@ footer
     display: block;
     margin-top: 10px;
     margin-left: 5px;
+    font-family: 'Open Sans';
+    color: #ff006d;
 }
 
 .label__Correo
@@ -726,12 +880,16 @@ footer
     display: block;
     margin-top: 10px;
     margin-left: 5px;
+    font-family: 'Open Sans';
+    color: #ff006d;
 }
 
 .label__Genero
 {
     margin-top: 10px;
     margin-left: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff006d;
 }
 
 .textBlink
@@ -750,7 +908,6 @@ footer
 .volverPaginaprincipal
 {
     margin-top: 10px;
-    margin-left: 1100px;
     font-family: 'Open Sans';
 }
 
@@ -1311,3 +1468,104 @@ footer
 {
     margin-bottom: 30px;
 }
+
+/*GALERIA*/
+
+.elTitulo h3
+{
+    background-color: #ff006d;
+    color: #219ebc;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100vw;
+}
+
+
+.la__Vuelta
+{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00296b;
+}
+
+
+.blinkGaleria
+{
+    display: grid;
+    grid-template-columns: repeat(2, 800px);
+    grid-template-rows: repeat(7, 0.02fr);
+    grid-template-areas: 
+    "galeria galeria"
+    "caricatura caricatura"
+    "trio recital3"
+    "juventud recitaldos"
+    "bateria recitaltres"
+    "mark travis"
+    "volver volver";
+    width: 100vw;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.galeriaTitulo
+{
+    grid-area: galeria;
+    width: 100vw;
+    
+}
+
+.blinkCaricatura
+{
+    grid-area: caricatura;
+}
+
+.markTomtravis
+{
+    grid-area: trio;
+}
+
+.imagenTomgaleria
+{
+    grid-area: tom;
+}
+
+.imagenTravisgaleria
+{
+    grid-area: travis;
+}    
+
+.blinkJuventud
+
+{
+    grid-area: juventud;
+}
+
+.blinkRecital2
+{
+    grid-area: recitaldos;
+}
+    
+.travisBateria
+{
+    grid-area: bateria;
+}
+
+.blinkRecital3
+{
+    grid-area: recitaltres;
+}    
+
+.imagenMarkgaleria
+{
+    grid-area: mark;
+}
+
+.laVuelta
+{
+    grid-area: volver;
+
+}
+
+
+
