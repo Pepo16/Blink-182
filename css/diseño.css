@@ -93,6 +93,11 @@
     margin-right: auto;
 }
 
+.imagenInicial
+{
+    width: 416px;
+}
+
 }
 
 @media screen and (max-width: 800px){
@@ -139,6 +144,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.imagenInicial
+{
+    width: 730px;
+}
+
 }
 
 
@@ -167,7 +178,11 @@
 
 
 
-
+.imagenInicial
+{
+    width: 800px;
+    text-align: center;
+}
 
 
 /*BREVE HISTORIA DE BLINK*/
@@ -775,64 +790,10 @@ footer
 
 .fondoAzul
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.02fr 0.01fr 0.02fr 0.01fr;
-    grid-template-areas: 
-    "logo logo"
-    "comentario comentario"
-    "formulario formulario"
-    "volver footer";
+    background-image: url(../imagenes/blink\ circular.png);
+    background-repeat: repeat;
+    background-size: contain;
 }
-
-.blinkRosa
-{
-    grid-area: logo;
-}
-
-.dejaComentario
-{
-    grid-area: comentario;
-}
-
-.tablaBlink
-{
-    grid-area: formulario;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-
-.instagramBlink
-{
-    grid-area: footer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.volverPaginaprincipal
-{
-    grid-area: volver;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.fondoAzul
-{
-    background-color: #219ebc;
-}
-
-
-.blinkRosa
-{
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-}
-
 .dejaComentario
 {
     margin-top: 5px;
@@ -843,78 +804,35 @@ footer
     font-family: 'Open Sans';
     color: #ff006d;
     margin-left: 5px;
+    text-align: center;
 }
 
-.labelNombre
-{
-    font-family: 'Open Sans';
-    color: #ff006d;
-    display: block;
-    margin-top: 10px;
-    margin-left: 5px;
-}
-
-.label__Nombre
-{
-    margin-top: 10px;
-    margin-left: 5px;
-}
-
-.labelCorreo
-{
-    display: block;
-    margin-top: 10px;
-    margin-left: 5px;
-    font-family: 'Open Sans';
-    color: #ff006d;
-}
-
-.label__Correo
-{
-    margin-top: 10px;
-    margin-left: 5px;
-}
-
-.labelGenero
-{
-    display: block;
-    margin-top: 10px;
-    margin-left: 5px;
-    font-family: 'Open Sans';
-    color: #ff006d;
-}
-
-.label__Genero
-{
-    margin-top: 10px;
-    margin-left: 5px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ff006d;
-}
-
-.textBlink
-{
-    display: block;
-    margin-top: 10px;
-    margin-left: 5px;
-}
-
-.submitBlink
-{
-    margin-top: 10px;
-    margin-left: 5px;
-}
 
 .volverPaginaprincipal
 {
     margin-top: 10px;
     font-family: 'Open Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .volver__Paginaprincipal
 {
     color: #ff006d;
     text-decoration: none;
+}
+
+.instagramBlink
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rowGenero
+{
+    margin-left: 5px;
 }
 
 /*DISCOGRAFIA*/
