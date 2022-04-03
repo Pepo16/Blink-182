@@ -622,7 +622,7 @@
 
 /*HISTORIA DE LA BANDA*/
 
-.lahistoriaBlink
+/*.lahistoriaBlink
 {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr ;
@@ -631,7 +631,7 @@
     "titulo titulo"
     "texto texto"
     "volver footer";
-}
+}*/
 
 .historiaBlink
 {
@@ -667,7 +667,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 800px){
+/*@media screen and (max-width: 800px){
     .lahistoriaBlink
     {
         display: grid;
@@ -702,7 +702,7 @@
     {
         width: 100vw;
     }
-}
+}*/
 
 .historiaBlink
 {
