@@ -275,9 +275,9 @@
     filter: grayscale(50%);
 }
 
-/*FOOTER*/
 
-footer
+
+.footerBlink
 {
     margin-top: 30px;
     text-align: right;
