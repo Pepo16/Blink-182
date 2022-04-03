@@ -633,6 +633,7 @@
     "volver footer";
 }*/
 
+
 .historiaBlink
 {
     grid-area: titulo;
@@ -704,6 +705,13 @@
     }
 }*/
 
+.lahistoriaBlink
+{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 .historiaBlink
 {
     text-align: center;
@@ -719,7 +727,7 @@
     font-family: 'Kanit';
     color: red;
     font-weight: bold;
-    padding: 10px 10px 10px 10px;
+    padding: 30px;
     line-height: 30px;
     background-image: url(../imagenes/Blink-182-Logo.png);
     background-repeat: no-repeat;
