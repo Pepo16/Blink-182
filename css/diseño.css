@@ -286,7 +286,7 @@ footer
 
 /*INTEGRANTES*/
 
-.integrantesBlink182
+/*.integrantesBlink182
 {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
@@ -296,9 +296,9 @@ footer
     "tom tom"
     "travis travis"
     "volver footer";
-}
+}*/
 
-.mainMark
+.articleMark
 {
     grid-area: integrantes;
 }
