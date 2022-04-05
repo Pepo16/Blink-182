@@ -847,9 +847,9 @@
     margin-left: 5px;
 }
 
-/*DISCOGRAFIA*/
+/*DISCOGRAFIA
 
-/*.discografiaBlink
+.discografiaBlink
 {
    display: grid;
     grid-template-columns: 0.01fr 0.01fr ;
@@ -958,24 +958,19 @@
         "footer";
     }
 
- 
+    .footerBlink182
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-
-
-
-.footerBlink182
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.vuelvePaginaprincipal
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .vuelvePaginaprincipal
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
@@ -1479,5 +1474,201 @@
 
 }
 
+/*GALERIA*/
 
+.galeriaBlink182
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
 
+.blinkJoven
+{
+    width: 600px;
+    padding: 5px;
+}
+
+.blinkRecital2
+{
+    width: 600px;
+    padding: 5px;
+}
+
+.blinkRecital3
+{
+    width: 600px;
+    padding: 5px;
+}
+
+.blinkRecital1
+{
+    width: 600px;
+    padding: 5px;
+}
+
+.iniciosBlink182
+{
+    width: 650px;
+    padding: 5px;
+}
+
+.markBajorosa
+{
+    width: 400px;
+    padding: 5px;
+}
+
+.travisRecital1
+{
+    width: 500px;
+    padding-left: 5px;
+}
+
+.carritoGolf
+{
+    padding: 5px;
+}
+
+.blinkGrabacion
+{
+    width: 350px;
+}
+
+.blinkNegroyblanco
+{
+    width: 300px;
+}
+
+.volverIndex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volver__Index
+{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footerGaleria
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px){
+    /*.galeriaBlink182
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}*/
+
+.galeriaBlink182
+{
+    overflow-x: hidden;
+}
+
+.blinkJoven
+{
+    width: 300px;
+    
+}
+
+.blinkRecital2
+{
+    width: 273px;
+    
+}
+
+.blinkRecital3
+{
+    width: 306px;
+    
+}
+
+.blinkRecital1
+{
+    width: 273px;
+    
+}
+
+.blinkTrio
+{
+    width: 532px;
+}
+
+.iniciosBlink182
+{
+    width: 323px;
+   
+}
+
+.markBajorosa
+{
+    width: 240px;
+}
+
+.travisRecital1
+{
+    width: 348px;
+    
+}
+
+.gorraBlink182
+{
+    width: 175px;
+}
+
+.carritoGolf
+{
+    width: 210px;
+}
+
+.blinkGrabacion
+{
+    width: 242px;
+    padding: 8px;
+}
+
+.blinkNegroyblanco
+{
+    width: 175px;
+    padding: 5px;
+}
+
+}
+
+@media screen and (max-width: 500px){
+    .galeriaBlink182
+    {
+        overflow-x: hidden;
+    }
+
+    .blinkTrio
+{
+    width: 258px;
+}
+
+.iniciosBlink182
+{
+    width: 274px;
+   
+}
+
+.travisRecital1
+{
+    width: 205px;
+    
+}
+
+.gorraBlink182
+{
+    padding: 5px;
+}
+
+}
