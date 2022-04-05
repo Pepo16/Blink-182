@@ -96,6 +96,7 @@
 .imagenInicial
 {
     width: 416px;
+   
 }
 
 }
@@ -636,7 +637,6 @@
 .superJovenes
 {
     width: 700px;
-    
     margin: auto;
 }
 
@@ -692,6 +692,13 @@
     {
         padding: 30px
     }
+
+    .superJovenes
+{
+    width: 530px;
+    margin: auto;
+}
+
 }
 
 @media screen and (max-width:500px){
@@ -706,6 +713,12 @@
     {
         padding: 30px;
     }
+
+    .superJovenes
+{
+    width: 250px;
+    margin: auto;
+}
     
 }
 
