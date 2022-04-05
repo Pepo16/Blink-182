@@ -633,6 +633,17 @@
     "volver footer";
 }*/
 
+.superJovenes
+{
+    width: 700px;
+    
+    margin: auto;
+}
+
+.volverApagina
+{
+    margin-top: 25px;
+}
 
 .historiaBlink
 {
@@ -666,44 +677,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
 }
 
-/*@media screen and (max-width: 800px){
+@media screen and (max-width: 800px){
     .lahistoriaBlink
     {
-        display: grid;
-        grid-template-columns: 0.5fr 0.5fr ;
-        grid-template-rows: 0.02fr 0.03fr 0.01fr;
-        grid-template-areas: 
-        "titulo titulo"
-        "texto texto"
-        "volver footer";
+        height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
     }
 
-    .historiaBlink
+    .articuloPrimerospasos
     {
-        width: 100vw;
+        padding: 30px
     }
 }
 
 @media screen and (max-width:500px){
     .lahistoriaBlink
     {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.02fr 0.03fr 0.01fr 0.01fr;
-        grid-template-areas: 
-        "titulo"
-        "texto"
-        "volver"
-        "footer";
+        height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
     }
 
-    .historiaBlink
+    .articuloPrimerospasos
     {
-        width: 100vw;
+        padding: 30px;
     }
-}*/
+    
+}
 
 .lahistoriaBlink
 {
@@ -845,7 +849,7 @@
 
 /*DISCOGRAFIA*/
 
-.discografiaBlink
+/*.discografiaBlink
 {
    display: grid;
     grid-template-columns: 0.01fr 0.01fr ;
@@ -859,7 +863,7 @@
     "nine nine"
     "volver footer";
     overflow-x: hidden;
-}
+}*/
 
 .discografiaCompleta
 {
