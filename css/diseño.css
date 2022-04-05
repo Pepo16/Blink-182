@@ -853,9 +853,9 @@
 {
    display: grid;
     grid-template-columns: 0.01fr 0.01fr ;
-    grid-template-rows: 0.02fr 1fr 1fr 1fr 1fr 1fr 0.02fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr 0.02fr;
     grid-template-areas: 
-    "discografia discografia"
+    
     "budha cheshire"
     "dude enema"
     "take blink182"
@@ -865,15 +865,8 @@
     overflow-x: hidden;
 }*/
 
-.discografiaCompleta
-{
-    width: 100vw;
-}
 
-.discografiaCompleta
-{
-    grid-area: discografia;
-}
+
 
 .discoBudha
 {
@@ -949,9 +942,9 @@
     {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.2fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr ;
+        grid-template-rows:  0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr ;
         grid-template-areas: 
-        "discografia"
+        
         "budha"
         "cheshire"
         "dude"
@@ -965,16 +958,9 @@
         "footer";
     }
 
- .discografiaBlink
- {
-     overflow-x: hidden;
- }
+ 
 
-.discografia__Completa
-{
-    width: 100vw;
-    text-align: center;
-}
+
 
 
 .footerBlink182
@@ -998,9 +984,9 @@
     {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.2fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr ;
+        grid-template-rows:  0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr ;
         grid-template-areas: 
-        "discografia"
+        
         "budha"
         "cheshire"
         "dude"
@@ -1019,11 +1005,7 @@
         overflow-x: hidden;
     }
 
-    .discografia__Completa
-    {
-        width: 100vw;
-        text-align: center;
-    }
+   
 }
 
 .discografiaCompleta
