@@ -350,6 +350,7 @@
     "travis"
     "volver"
     "footer";
+    background-image: url(../imagenes/marmol.jpg);
 }
 
 
@@ -373,6 +374,7 @@
     "travis"
     "volver"
     "footer";
+    background-image: url(../imagenes/marmol.jpg);
 }
 
 
@@ -634,6 +636,8 @@
     "volver footer";
 }*/
 
+
+
 .superJovenes
 {
     width: 700px;
@@ -878,7 +882,12 @@
     overflow-x: hidden;
 }*/
 
-
+.discografiaBlink
+{
+    background-image: url(../imagenes/marmolblanco.jpg);
+   /* background-repeat: no-repeat;
+    background-size: cover;*/
+}
 
 
 .discoBudha
@@ -1494,6 +1503,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
+    background-image: url(../imagenes/marmol.jpg);
 }
 
 .blinkJoven
