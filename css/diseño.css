@@ -49,6 +49,7 @@
     align-items: center;
 }
 
+
 @media screen and (max-width: 500px){
     .paginaInicialblink
     {
@@ -690,6 +691,13 @@
         height: 100vh;
         width: 100vw;
         overflow-x: hidden;
+        background-image: url(../imagenes/marmolblanco.jpg);
+    }
+
+    .historiaBlink
+    {
+        max-width: 100%;
+        width: 100vw;
     }
 
     .articuloPrimerospasos
@@ -697,6 +705,11 @@
         padding: 30px
     }
 
+    .articuloPrimerospasos{
+        background-image: url(../imagenes/marmolblanco.jpg);
+    }
+
+    
     .superJovenes
 {
     width: 530px;
@@ -716,6 +729,7 @@
     .articuloPrimerospasos
     {
         padding: 30px;
+        background-image: url(../imagenes/marmolblanco.jpg);
     }
 
     .superJovenes

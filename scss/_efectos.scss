@@ -1,0 +1,58 @@
+.paginaInicialblink {
+    .headerBlink img {
+
+        height: 250px;
+        filter: none;
+        transition: height 3s;
+
+        &:hover {
+            height: 350px;
+            filter: grayscale(50%);
+
+        }
+    
+
+    }
+
+
+
+    .listaBlink li {
+        
+
+        @keyframes aparecer {
+            0% {
+                opacity: 0%;
+            }
+
+            20% {
+                opacity: 20%;
+            }
+
+            40% {
+                opacity: 40%;
+            }
+
+            60% {
+                opacity: 60%;
+            }
+
+            80% {
+                opacity: 80%;
+            }
+
+            100% {
+                opacity: 100%;
+            }
+        }
+
+        .seccionesPagina {
+            animation-name: aparecer;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: initial;
+        }
+
+    }
+
+    
+}

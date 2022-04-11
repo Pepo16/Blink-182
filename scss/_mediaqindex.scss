@@ -1,0 +1,153 @@
+@media screen and (max-width: 500px) {
+    .paginaInicialblink {
+        width: 100vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.01fr 0.05fr 1fr 0.01fr 0.01fr;
+        grid-template-areas:
+            "titulo"
+            "logo"
+            "historia"
+            "imagen"
+            "footer";
+    }
+
+    .inicioBlink h3 {
+        grid-area: titulo;
+    }
+
+    .headerBlink {
+        grid-area: logo;
+    }
+
+
+
+    .letraRosa {
+        grid-area: historia;
+    }
+
+    .imagenInicial {
+        grid-area: imagen;
+    }
+
+    .footerBlink {
+        grid-area: footer;
+    }
+
+    .contenedor1 {
+
+        background-color: #0a9396;
+        color: #ff006d;
+        font-family: Arial, Helvetica, sans-serif;
+            main h3{
+                display: inline-block;
+
+            }
+    }
+
+    .contenedor2 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .listaBlink {
+        list-style-type: none;
+    }
+
+    .listaBlink li {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .contenedor4 {
+        width: auto;
+        height: auto;
+    }
+
+    .imagenInicial {
+        width: 416px;
+    }
+
+    .contenedor5 {
+        width: auto;
+        height: auto;
+
+        .footerBlink {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .paginaInicialblink {
+        width: 100vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.01fr 0.05fr 1fr 0.01fr 0.01fr;
+        grid-template-areas:
+            "titulo"
+            "logo"
+            "historia"
+            "imagen"
+            "footer";
+    }
+
+    .inicioBlink h3 {
+        grid-area: titulo;
+        width: 100vw;
+    }
+
+    .headerBlink {
+        grid-area: logo;
+    }
+
+    .letraRosa {
+        grid-area: historia;
+    }
+
+    .imagenInicial {
+        grid-area: imagen;
+    }
+
+    .footerBlink {
+        grid-area: footer;
+    }
+
+    .contenedor1 {
+        background-color: #0a9396;
+        color: #ff006d;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    .contenedor2 {
+        .headerBlink img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .listaBlink {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+
+    .contenedor4 {
+        width: auto;
+        height: auto;
+
+        img {
+            width: 730px;
+        }
+    }
+
+    .contenedor5 {
+        width: auto;
+        height: auto;
+    }
+}

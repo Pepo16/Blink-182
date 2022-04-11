@@ -1,0 +1,137 @@
+.paginaInicialblink {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.04fr 0.1fr 2fr 0.001fr;
+    grid-template-areas:
+        "titulo"
+        "logo"
+        "historia"
+        "footer";
+
+    .inicioBlink h3 {
+        grid-area: titulo;
+    }
+
+    .headerBlink {
+        grid-area: logo;
+    }
+
+    .listaBlink {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .letraRosa {
+        grid-area: historia;
+    }
+
+    .footerBlink {
+        grid-area: footer;
+    }
+
+
+
+
+    .contenedor1 {
+        background-color: #ff006d;
+
+        h3 {
+            color: #219ebc;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+    }
+
+    .contenedor2 {
+        .headerBlink img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .listaBlink li {
+        display: inline-block;
+        padding-left: 3px;
+        padding-right: 3px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-top: 25px;
+        position: relative;
+        width: 25%;
+        font-size: 14px;
+
+    }
+
+}
+
+
+
+
+.contenedor3 {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+h4 {
+    text-align: center;
+    background-color: #ff006d;
+    color: #219ebc;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+
+}
+
+p {
+    color: #ff006d;
+    font-family: 'Fredoka';
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-weight: bold;
+    border: 1px dashed black;
+    background-image: url(https://www.vhv.rs/dpng/d/564-5648798_blink-182-logo-blink-182-hd-png-download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.contenedor4 {
+    width: auto;
+    height: auto;
+
+    .imagenInicial {
+        width: 700px;
+
+    }
+}
+
+.contenedor5 {
+    width: auto;
+    height: auto;
+    margin-top: 35px;
+
+    .footerBlink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
