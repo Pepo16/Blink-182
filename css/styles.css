@@ -43,6 +43,8 @@
     position: relative;
     width: 25%;
     font-size: 14px; }
+  .paginaInicialblink li a {
+    text-decoration: none; }
 
 .contenedor3 {
   margin-top: 20px;
@@ -118,7 +120,8 @@ p {
     grid-template-rows: 0.01fr 0.05fr 1fr 0.01fr 0.01fr;
     grid-template-areas: "titulo" "logo" "historia" "imagen" "footer"; }
   .inicioBlink h3 {
-    grid-area: titulo; }
+    grid-area: titulo;
+    width: 100vw; }
   .headerBlink {
     grid-area: logo; }
   .letraRosa {
@@ -137,17 +140,17 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto; }
-  .listaBlink {
-    list-style-type: none; }
-  .listaBlink li {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; }
+    .contenedor2 img .listaBlink {
+      list-style-type: none; }
+    .contenedor2 img .listaBlink li {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap; }
   .contenedor4 {
-    width: auto;
-    height: auto; }
-  .imagenInicial {
-    width: 416px; }
+    width: 100%;
+    max-width: 100%; }
+    .contenedor4 img {
+      width: 200px; }
   .contenedor5 {
     width: auto;
     height: auto; }
@@ -184,8 +187,9 @@ p {
     margin-right: auto; }
   .contenedor2 .listaBlink {
     display: flex;
-    justify-content: space-around;
-    align-items: center; }
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; }
   .contenedor4 {
     width: auto;
     height: auto; }

@@ -13,6 +13,7 @@
 
     .inicioBlink h3 {
         grid-area: titulo;
+        width: 100vw;
     }
 
     .headerBlink {
@@ -38,10 +39,11 @@
         background-color: #0a9396;
         color: #ff006d;
         font-family: Arial, Helvetica, sans-serif;
-            main h3{
-                display: inline-block;
 
-            }
+        main h3 {
+            display: inline-block;
+
+        }
     }
 
     .contenedor2 img {
@@ -49,26 +51,29 @@
         margin-left: auto;
         margin-right: auto;
 
-    }
+    
 
-    .listaBlink {
-        list-style-type: none;
-    }
+        .listaBlink {
+            list-style-type: none;
+        }
 
-    .listaBlink li {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+            .listaBlink li {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+             }
     }
 
     .contenedor4 {
-        width: auto;
-        height: auto;
+        width: 100%;
+        max-width: 100%;
+
+        img {
+            width: 200px;
+        }
     }
 
-    .imagenInicial {
-        width: 416px;
-    }
+
 
     .contenedor5 {
         width: auto;
@@ -132,8 +137,9 @@
 
         .listaBlink {
             display: flex;
-            justify-content: space-around;
-            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
         }
     }
 
