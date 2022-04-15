@@ -1,11 +1,11 @@
 .paginaInicialblink {
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.04fr 0.1fr 2fr 0.001fr;
   grid-template-areas: "titulo" "logo" "historia" "footer"; }
-  .paginaInicialblink .inicioBlink h3 {
+  .paginaInicialblink .inicioBlink .tituloInicio {
     grid-area: titulo; }
   .paginaInicialblink .headerBlink {
     grid-area: logo; }
@@ -18,12 +18,11 @@
   .paginaInicialblink .footerBlink {
     grid-area: footer; }
   .paginaInicialblink .contenedor1 {
-    background-color: #ff006d; }
-    .paginaInicialblink .contenedor1 h3 {
-      color: #219ebc;
-      font-size: 30px;
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: center; }
+    background-color: #ff006d;
+    color: #219ebc;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; }
   .paginaInicialblink .contenedor2 .headerBlink img {
     display: block;
     margin-left: auto;
@@ -51,7 +50,7 @@
   margin-bottom: 20px;
   line-height: 24px; }
 
-h4 {
+.breveHistoria .subTitulo {
   text-align: center;
   background-color: #ff006d;
   color: #219ebc;
@@ -59,7 +58,7 @@ h4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 30px; }
 
-p {
+.letraRosa .parrafoInicial {
   color: #ff006d;
   font-family: 'Fredoka';
   margin-top: 10px;
@@ -113,6 +112,204 @@ p {
   animation-timing-function: linear;
   animation-iteration-count: initial; }
 
+.integrantesBlink182 {
+  margin: 0%;
+  padding: 0%;
+  /* display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.3fr 0.2fr 0.2fr 0.02fr;
+    grid-template-areas:
+        "navegacion navegacion"
+        "tom tom"
+        "travis travis"
+        "volver footer";
+*/ }
+  .integrantesBlink182 .navIntegrantes {
+    grid-area: integrantes; }
+  .integrantesBlink182 .mainTom {
+    grid-area: tom; }
+  .integrantesBlink182 .mainTravis {
+    grid-area: travis; }
+  .integrantesBlink182 .volverPaginaa {
+    grid-area: volver; }
+  .integrantesBlink182 .footerIntegrantes {
+    grid-area: footer; }
+  .integrantesBlink182 .navIntegrantes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; }
+  .integrantesBlink182 .navIntegrantes li {
+    list-style-type: none; }
+  .integrantesBlink182 .navIntegrantes li a {
+    text-decoration: none;
+    color: #ff0054;
+    font-family: Arial, Helvetica, sans-serif; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0%; }
+  20% {
+    opacity: 20%; }
+  40% {
+    opacity: 40%; }
+  60% {
+    opacity: 60%; }
+  80% {
+    opacity: 80%; }
+  100% {
+    opacity: 100%; } }
+  .integrantesBlink182 .listaBlinkintegrantes li a {
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial; }
+  .integrantesBlink182 .contenedorMark, .integrantesBlink182 .contenedorTom, .integrantesBlink182 .contenedorTravis {
+    background-image: url(../imagenes/Blink-182-Logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    .integrantesBlink182 .contenedorMark .tituloMark, .integrantesBlink182 .contenedorTom .tituloMark, .integrantesBlink182 .contenedorTravis .tituloMark {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-size: 40px;
+      font-style: italic;
+      color: blue; }
+    .integrantesBlink182 .contenedorMark .introduccionMark, .integrantesBlink182 .contenedorTom .introduccionMark, .integrantesBlink182 .contenedorTravis .introduccionMark {
+      color: #ff006d;
+      font-family: "league gothic";
+      font-size: 25px;
+      margin-top: 15px;
+      padding: 10px; }
+    .integrantesBlink182 .contenedorMark .otrosTrabajos, .integrantesBlink182 .contenedorTom .otrosTrabajos, .integrantesBlink182 .contenedorTravis .otrosTrabajos {
+      text-align: left;
+      margin-top: 10px;
+      margin-left: 20px;
+      font-size: 25px;
+      font-style: italic;
+      color: #219ebc; }
+    .integrantesBlink182 .contenedorMark .otros__Trabajos, .integrantesBlink182 .contenedorTom .otros__Trabajos, .integrantesBlink182 .contenedorTravis .otros__Trabajos {
+      color: #ff006d;
+      font-family: "league gothic";
+      font-size: 25px;
+      margin-top: 15px;
+      padding: 10px; }
+    .integrantesBlink182 .contenedorMark .vidaMark, .integrantesBlink182 .contenedorTom .vidaMark, .integrantesBlink182 .contenedorTravis .vidaMark {
+      text-align: left;
+      margin-top: 10px;
+      margin-left: 20px;
+      font-size: 25px;
+      font-style: italic;
+      color: #219ebc; }
+    .integrantesBlink182 .contenedorMark .vida__Mark, .integrantesBlink182 .contenedorTom .vida__Mark, .integrantesBlink182 .contenedorTravis .vida__Mark {
+      color: #ff006d;
+      font-family: "league gothic";
+      font-size: 25px;
+      margin-top: 15px;
+      padding: 10px; }
+    .integrantesBlink182 .contenedorMark .imagenMark, .integrantesBlink182 .contenedorTom .imagenMark, .integrantesBlink182 .contenedorTravis .imagenMark {
+      margin-top: 35px; }
+    .integrantesBlink182 .contenedorMark .foto__Mark, .integrantesBlink182 .contenedorTom .foto__Mark, .integrantesBlink182 .contenedorTravis .foto__Mark {
+      color: #219ebc;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-top: 5px; }
+  .integrantesBlink182 .contenedorTom {
+    border: 0.2px dashed black; }
+    .integrantesBlink182 .contenedorTom .tomDelonge {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-size: 40px;
+      font-style: italic;
+      color: blue; }
+    .integrantesBlink182 .contenedorTom .articleTom .introduccionTom {
+      color: #ff006d;
+      font-family: "league gothic";
+      font-size: 25px;
+      margin-top: 15px;
+      padding: 10px; }
+    .integrantesBlink182 .contenedorTom .vidaTom {
+      text-align: left;
+      margin-top: 10px;
+      margin-left: 20px;
+      font-size: 25px;
+      font-style: italic;
+      color: #219ebc; }
+    .integrantesBlink182 .contenedorTom .vida__Tom {
+      color: #ff006d;
+      font-family: "league gothic";
+      font-size: 25px;
+      margin-top: 15px;
+      padding: 10px; }
+    .integrantesBlink182 .contenedorTom .fotoTom {
+      text-align: right;
+      margin-top: 15px; }
+    .integrantesBlink182 .contenedorTom .foto__Tom {
+      color: #0a9396;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-top: 5px; }
+  .integrantesBlink182 .contenedorTravis .tituloTravis .travisBarker {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-style: italic;
+    color: blue; }
+  .integrantesBlink182 .contenedorTravis .articleTravis .introduccionTravis {
+    color: #ff006d;
+    font-family: "league gothic";
+    font-size: 25px;
+    margin-top: 15px;
+    padding: 10px; }
+  .integrantesBlink182 .contenedorTravis .vidaTravis {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-style: italic;
+    color: #219ebc; }
+  .integrantesBlink182 .contenedorTravis .vida__Travis {
+    color: #ff006d;
+    font-family: "league gothic";
+    font-size: 25px;
+    margin-top: 15px;
+    padding: 10px; }
+  .integrantesBlink182 .contenedorTravis .fueraMusica {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-style: italic;
+    color: #219ebc; }
+  .integrantesBlink182 .contenedorTravis .fuera__Musica {
+    color: #ff006d;
+    font-family: "league gothic";
+    font-size: 25px;
+    margin-top: 15px;
+    padding: 10px; }
+  .integrantesBlink182 .contenedorTravis .fotoTravis {
+    text-align: right;
+    margin-top: 15px; }
+  .integrantesBlink182 .contenedorTravis .foto__Travis {
+    color: #219ebc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px; }
+  .integrantesBlink182 .volverPaginaa {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.volver__Paginaa {
+  text-decoration: none;
+  color: #ff006d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 @media screen and (max-width: 500px) {
   .paginaInicialblink {
     width: 100vw;
@@ -139,7 +336,8 @@ p {
   .contenedor2 img {
     display: block;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    width: 150px; }
     .contenedor2 img .listaBlink {
       list-style-type: none; }
     .contenedor2 img .listaBlink li {
@@ -147,8 +345,7 @@ p {
       flex-direction: column;
       flex-wrap: wrap; }
   .contenedor4 {
-    width: 100%;
-    max-width: 100%; }
+    width: 100vw; }
     .contenedor4 img {
       width: 200px; }
   .contenedor5 {
@@ -198,3 +395,56 @@ p {
   .contenedor5 {
     width: auto;
     height: auto; } }
+
+@media screen and (max-width: 500px) {
+  .integrantesBlink182 {
+    width: 100vw;
+    background-image: url(../imagenes/marmolblanco.jpg);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr;
+    grid-template-areas: "navintegrantes" "tom" "travis" "volver" "footer"; }
+    .integrantesBlink182 .navIntegrantes {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap; }
+    .integrantesBlink182 .navIntegrantes li a {
+      color: #0a9396;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+    .integrantesBlink182 .contenedorFooterinicio a {
+      width: auto;
+      height: auto; }
+    .integrantesBlink182 .contenedorMark, .integrantesBlink182 .contenedorTom, .integrantesBlink182 .contenedorTravis {
+      width: 100vw; }
+    .integrantesBlink182 .contenedorTom {
+      width: 100vw; }
+    .integrantesBlink182 .contenedorTravis {
+      width: 100vw; }
+    .integrantesBlink182 .contenedorFooterinicio {
+      width: 100vw; } }
+
+@media screen and (max-width: 800px) {
+  .integrantesBlink182 {
+    width: 100vw;
+    max-width: 100%;
+    background-image: url(../imagenes/marmolblanco.jpg);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr;
+    grid-template-areas: "navintegrantes" "tom" "travis" "volver" "footer"; }
+    .integrantesBlink182 .navIntegrantes {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center; }
+    .integrantesBlink182 .navIntegrantes li a {
+      color: #0a9396;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+    .integrantesBlink182 .contenedorMark, .integrantesBlink182 .contenedorTom, .integrantesBlink182 .contenedorTravis {
+      width: 100vw; }
+    .integrantesBlink182 .contenedorTom {
+      width: 100vw; }
+    .integrantesBlink182 .contenedorTravis {
+      width: 100vw; }
+    .integrantesBlink182 .contenedorFooterinicio {
+      width: 100vw; } }

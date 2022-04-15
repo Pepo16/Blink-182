@@ -1,6 +1,6 @@
 .paginaInicialblink {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.04fr 0.1fr 2fr 0.001fr;
@@ -10,7 +10,7 @@
         "historia"
         "footer";
 
-    .inicioBlink h3 {
+    .inicioBlink .tituloInicio {
         grid-area: titulo;
     }
 
@@ -37,13 +37,10 @@
 
     .contenedor1 {
         background-color: #ff006d;
-
-        h3 {
-            color: #219ebc;
-            font-size: 30px;
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-        }
+        color: #219ebc;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
     }
 
     .contenedor2 {
@@ -93,7 +90,7 @@
     line-height: 24px;
 }
 
-h4 {
+.breveHistoria .subTitulo {
     text-align: center;
     background-color: #ff006d;
     color: #219ebc;
@@ -103,7 +100,7 @@ h4 {
 
 }
 
-p {
+.letraRosa .parrafoInicial {
     color: #ff006d;
     font-family: 'Fredoka';
     margin-top: 10px;

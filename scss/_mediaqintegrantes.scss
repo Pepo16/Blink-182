@@ -1,0 +1,94 @@
+@media screen and (max-width: 500px) {
+    .integrantesBlink182 {
+        width: 100vw;
+        background-image: url(../imagenes/marmolblanco.jpg);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr;
+        grid-template-areas:
+            "navintegrantes"
+            "tom"
+            "travis"
+            "volver"
+            "footer";
+
+        .navIntegrantes {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+
+        }
+
+        .navIntegrantes li a {
+            color: #0a9396;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .contenedorFooterinicio a {
+            width: auto;
+            height: auto;
+        }
+
+        .contenedorMark {
+            width: 100vw;
+        }
+
+        .contenedorTom {
+            width: 100vw;
+        }
+
+        .contenedorTravis {
+            width: 100vw;
+        }
+
+        .contenedorFooterinicio {
+            width: 100vw;
+        }
+
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .integrantesBlink182 {
+        width: 100vw;
+        max-width: 100%;
+        background-image: url(../imagenes/marmolblanco.jpg);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr;
+        grid-template-areas:
+            "navintegrantes"
+            "tom"
+            "travis"
+            "volver"
+            "footer";
+
+        .navIntegrantes {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+
+        .navIntegrantes li a {
+            color: #0a9396;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .contenedorMark {
+            width: 100vw;
+        }
+
+        .contenedorTom {
+            width: 100vw;
+        }
+
+        .contenedorTravis {
+            width: 100vw;
+        }
+
+        .contenedorFooterinicio {
+            width: 100vw;
+        }
+    }
+}

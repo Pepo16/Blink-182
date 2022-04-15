@@ -137,12 +137,6 @@
 
 
 
-
-
-
-
-/*TITULO PRINCIPAL DE LA PAGINA */
-
 .inicioBlink h3 {
     color: #219ebc;
     font-size: 30px;
@@ -167,7 +161,7 @@
 }
 
 
-/*BREVE HISTORIA DE BLINK*/
+
 
 .paginaPrincipal {
     background-image: url(https://www.vhv.rs/dpng/d/564-5648798_blink-182-logo-blink-182-hd-png-download.png);
@@ -178,7 +172,7 @@
     line-height: 24px;
 }
 
-/*SUBTITULO*/
+
 
 .subTitulo {
     text-align: center;
@@ -189,7 +183,7 @@
     margin-top: 30px;
 }
 
-/*PARRAFOS*/
+
 
 .letraRosa {
     color: #ff006d;
@@ -201,7 +195,7 @@
 }
 
 
-/*LISTAS DE PAGINA PRINCIPAL*/
+
 
 .listaBlink li {
     display: inline-block;
@@ -213,7 +207,7 @@
 
 }
 
-/*SECCIONES DE LA PAGINA*/
+
 
 .seccionesPagina {
     text-decoration: none;
@@ -287,13 +281,19 @@
 {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: 0.3fr 0.2fr 0.2fr 0.02fr;
-    grid-template-areas: 
-    "integrantes integrantes"
+    grid-template-rows: 0.02fr 0.2fr 0.2fr 0.02fr;
+    grid-template-areas:
+    "navintegrantes navintegrantes" 
     "tom tom"
     "travis travis"
     "volver footer";
 }*/
+
+.listaBlinkintegrantes
+{
+    grid-area: navintegrantes;
+    
+}
 
 .articleMark {
     grid-area: integrantes;
@@ -334,7 +334,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr;
         grid-template-areas:
-            "integrantes"
+            "navintegrantes"
             "tom"
             "travis"
             "volver"
@@ -343,13 +343,20 @@
     }
 
 
-
-    .losIntegrantes {
-        width: 100vw;
-        background-color: #219ebc;
-        color: #ff006d;
-        font-size: 25px;
+    .navIntegrantes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
     }
+
+    .navIntegrantes li a {
+        color: #0a9396;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+
+    
 }
 
 @media screen and (max-width: 800px) {
@@ -358,7 +365,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr;
         grid-template-areas:
-            "integrantes"
+            "navintegrantes"
             "tom"
             "travis"
             "volver"
@@ -366,22 +373,74 @@
         background-image: url(../imagenes/marmol.jpg);
     }
 
-
-    .losIntegrantes {
-        width: 100vw;
-        background-color: #219ebc;
-        color: #ff006d;
-        font-size: 25px;
+    .navIntegrantes{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
     }
+
+    .navIntegrantes li a {
+        color: #0a9396;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    
 }
 
 
-.integrantesBlink {
-    background-color: #219ebc;
-    color: #ff006d;
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.navIntegrantes
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.navIntegrantes li
+{
+    list-style-type: none;
+}
+
+.navIntegrantes li a
+{
+    text-decoration: none;
+    color: #ff0054;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0%;
+    }
+
+    20% {
+        opacity: 20%;
+    }
+
+    40% {
+        opacity: 40%;
+    }
+
+    60% {
+        opacity: 60%;
+    }
+
+    80% {
+        opacity: 80%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.listaBlinkintegrantes li a {
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 .articleMark {
@@ -652,6 +711,18 @@
         width: 100vw;
     }
 
+    .navHistoria{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .navHistoria li a {
+        color: #0a9396;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
     .articuloPrimerospasos {
         padding: 30px
     }
@@ -675,6 +746,18 @@
         overflow-x: hidden;
     }
 
+    .navHistoria{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .navHistoria li a {
+        color: #0a9396;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
     .articuloPrimerospasos {
         padding: 30px;
         background-image: url(../imagenes/marmolblanco.jpg);
@@ -686,6 +769,61 @@
     }
 
 }
+
+.navHistoria
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.navHistoria li
+{
+   list-style-type: none;
+}
+
+.navHistoria li a
+{
+    text-decoration: none;
+    color: #ff0054;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0%;
+    }
+
+    20% {
+        opacity: 20%;
+    }
+
+    40% {
+        opacity: 40%;
+    }
+
+    60% {
+        opacity: 60%;
+    }
+
+    80% {
+        opacity: 80%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.navHistoria li a {
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+}
+
 
 .lahistoriaBlink {
     height: 100vh;
@@ -772,6 +910,62 @@
     background-size: contain;
 }
 
+
+.navContacto
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.navContacto li
+{
+   list-style-type: none;
+}
+
+.navContacto li a
+{
+    text-decoration: none;
+    color: #ff0054;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0%;
+    }
+
+    20% {
+        opacity: 20%;
+    }
+
+    40% {
+        opacity: 40%;
+    }
+
+    60% {
+        opacity: 60%;
+    }
+
+    80% {
+        opacity: 80%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.navContacto li a {
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
+}
+
+
 .dejaComentario {
     margin-top: 5px;
 }
@@ -806,6 +1000,35 @@
 .rowGenero {
     margin-left: 5px;
 }
+
+@media screen and (max-width: 800px){
+    .navContacto{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .navContacto li a {
+        color: #0a9396;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .navContacto{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .navContacto li a {
+        color: #0a9396;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+
 
 /*DISCOGRAFIA
 
@@ -908,6 +1131,18 @@
             "footer";
     }
 
+    .navDiscografia{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .navDiscografia li a {
+        color: #0a9396;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
     .footerBlink182 {
         display: flex;
         justify-content: center;
@@ -946,16 +1181,73 @@
         overflow-x: hidden;
     }
 
+    .navDiscografia{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .navDiscografia li a {
+        color: #0a9396;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
 
 }
 
-.discografiaCompleta {
-    text-align: center;
+.navDiscografia
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.navDiscografia li
+{
+   list-style-type: none;
+}
+
+.navDiscografia li a
+{
+    text-decoration: none;
     color: #ff0054;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    background-color: #219ebc;
 
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0%;
+    }
+
+    20% {
+        opacity: 20%;
+    }
+
+    40% {
+        opacity: 40%;
+    }
+
+    60% {
+        opacity: 60%;
+    }
+
+    80% {
+        opacity: 80%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.navDiscografia li a {
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 .buddhaDisco {
@@ -1275,13 +1567,58 @@
 
 /*GALERIA*/
 
-.elTitulo h3 {
-    background-color: #ff006d;
-    color: #219ebc;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 100vw;
+.navGaleria
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.navGaleria li
+{
+   list-style-type: none;
+}
+
+.navGaleria li a
+{
+    text-decoration: none;
+    color: #ff0054;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0%;
+    }
+
+    20% {
+        opacity: 20%;
+    }
+
+    40% {
+        opacity: 40%;
+    }
+
+    60% {
+        opacity: 60%;
+    }
+
+    80% {
+        opacity: 80%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.navGaleria li a {
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: initial;
 }
 
 
