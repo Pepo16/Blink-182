@@ -11,9 +11,10 @@
             "footer";
     }
 
-    .inicioBlink h3 {
+    .inicioBlink h1 {
         grid-area: titulo;
         width: 100vw;
+        display: inline-block;
     }
 
     .headerBlink {
@@ -46,13 +47,15 @@
         }
     }
 
-    .contenedor2 img {
+    .contenedor2 {
+        width: 100vw;
 
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 150px;
+        .logoBlink {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
 
+        }
 
 
         .listaBlink {
@@ -66,21 +69,24 @@
         }
     }
 
-
+    .contenedor3 {
+        .letraRosa{
+            width: 100%;
+        }
+    }
 
     .contenedor4 {
         width: 100vw;
 
-        img {
-            width: 200px;
+        .imagenInicial {
+            width: 400px;
         }
     }
 
 
 
     .contenedor5 {
-        width: auto;
-        height: auto;
+        width: 100vw;
 
         .footerBlink {
             display: flex;
@@ -103,7 +109,7 @@
             "footer";
     }
 
-    .inicioBlink h3 {
+    .inicioBlink h1 {
         grid-area: titulo;
         width: 100vw;
     }

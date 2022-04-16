@@ -316,9 +316,10 @@
     grid-template-columns: 1fr;
     grid-template-rows: 0.01fr 0.05fr 1fr 0.01fr 0.01fr;
     grid-template-areas: "titulo" "logo" "historia" "imagen" "footer"; }
-  .inicioBlink h3 {
+  .inicioBlink h1 {
     grid-area: titulo;
-    width: 100vw; }
+    width: 100vw;
+    display: inline-block; }
   .headerBlink {
     grid-area: logo; }
   .letraRosa {
@@ -333,24 +334,26 @@
     font-family: Arial, Helvetica, sans-serif; }
     .contenedor1 main h3 {
       display: inline-block; }
-  .contenedor2 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px; }
-    .contenedor2 img .listaBlink {
+  .contenedor2 {
+    width: 100vw; }
+    .contenedor2 .logoBlink {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; }
+    .contenedor2 .listaBlink {
       list-style-type: none; }
-    .contenedor2 img .listaBlink li {
+    .contenedor2 .listaBlink li {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap; }
+  .contenedor3 .letraRosa {
+    width: 100%; }
   .contenedor4 {
     width: 100vw; }
-    .contenedor4 img {
-      width: 200px; }
+    .contenedor4 .imagenInicial {
+      width: 400px; }
   .contenedor5 {
-    width: auto;
-    height: auto; }
+    width: 100vw; }
     .contenedor5 .footerBlink {
       display: flex;
       justify-content: center;
@@ -362,7 +365,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 0.01fr 0.05fr 1fr 0.01fr 0.01fr;
     grid-template-areas: "titulo" "logo" "historia" "imagen" "footer"; }
-  .inicioBlink h3 {
+  .inicioBlink h1 {
     grid-area: titulo;
     width: 100vw; }
   .headerBlink {
