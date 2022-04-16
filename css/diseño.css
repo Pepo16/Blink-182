@@ -1131,7 +1131,7 @@
             "footer";
     }
 
-    .navDiscografia{
+    .navDiscografia {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
