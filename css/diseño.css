@@ -270,7 +270,7 @@
 
 }
 
-.instaBlink{
+.instaBlink {
     margin-top: 50px;
 }
 
@@ -289,10 +289,9 @@
     "volver footer";
 }*/
 
-.listaBlinkintegrantes
-{
+.listaBlinkintegrantes {
     grid-area: navintegrantes;
-    
+
 }
 
 .articleMark {
@@ -343,20 +342,20 @@
     }
 
 
-    .navIntegrantes{
+    .navIntegrantes {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        
+
     }
 
     .navIntegrantes li a {
         color: #0a9396;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
-    
 
-    
+
+
 }
 
 @media screen and (max-width: 800px) {
@@ -373,7 +372,7 @@
         background-image: url(../imagenes/marmol.jpg);
     }
 
-    .navIntegrantes{
+    .navIntegrantes {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -384,27 +383,24 @@
         color: #0a9396;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
-    
-    
+
+
 }
 
 
 
-.navIntegrantes
-{
+.navIntegrantes {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
 }
 
-.navIntegrantes li
-{
+.navIntegrantes li {
     list-style-type: none;
 }
 
-.navIntegrantes li a
-{
+.navIntegrantes li a {
     text-decoration: none;
     color: #ff0054;
     font-family: Arial, Helvetica, sans-serif;
@@ -711,16 +707,19 @@
         width: 100vw;
     }
 
-    .navHistoria{
+    .listaBlinkhistoria ul {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
+        list-style-type: none;
+
     }
 
-    .navHistoria li a {
+    .listaBlinkhistoria ul li a {
         color: #0a9396;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: none;
     }
 
     .articuloPrimerospasos {
@@ -746,14 +745,14 @@
         overflow-x: hidden;
     }
 
-    .navHistoria{
+    .listaBlinkhistoria ul {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
     }
 
-    .navHistoria li a {
+    .listaBlinkhistoria ul li a {
         color: #0a9396;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
@@ -770,21 +769,18 @@
 
 }
 
-.navHistoria
-{
+.navegacionHistoria {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
 }
 
-.navHistoria li
-{
-   list-style-type: none;
+.navegacionHistoria li {
+    list-style-type: none;
 }
 
-.navHistoria li a
-{
+.navegacionHistoria li a {
     text-decoration: none;
     color: #ff0054;
     font-family: Arial, Helvetica, sans-serif;
@@ -817,7 +813,7 @@
     }
 }
 
-.navHistoria li a {
+.navegacionHistoria li a {
     animation-name: aparecer;
     animation-duration: 2s;
     animation-timing-function: linear;
@@ -911,21 +907,18 @@
 }
 
 
-.navContacto
-{
+.navContacto {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
 }
 
-.navContacto li
-{
-   list-style-type: none;
+.navContacto li {
+    list-style-type: none;
 }
 
-.navContacto li a
-{
+.navContacto li a {
     text-decoration: none;
     color: #ff0054;
     font-family: Arial, Helvetica, sans-serif;
@@ -984,12 +977,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.volver__Paginaprincipal {
-    color: #ff006d;
-    text-decoration: none;
-}
+
 
 .instagramBlink {
     display: flex;
@@ -1001,8 +992,8 @@
     margin-left: 5px;
 }
 
-@media screen and (max-width: 800px){
-    .navContacto{
+@media screen and (max-width: 800px) {
+    .navContacto {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -1015,8 +1006,8 @@
     }
 }
 
-@media screen and (max-width: 500px){
-    .navContacto{
+@media screen and (max-width: 500px) {
+    .navContacto {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -1131,14 +1122,14 @@
             "footer";
     }
 
-    .navDiscografia {
+    .listaBlinkdiscografia ul {
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         align-items: center;
     }
 
-    .navDiscografia li a {
+    .listaBlinkdiscografia ul li a {
         color: #0a9396;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
@@ -1181,36 +1172,33 @@
         overflow-x: hidden;
     }
 
-    .navDiscografia{
+    .listaBlinkdiscografia ul {
         display: flex;
         flex-direction: column;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         align-items: center;
     }
 
-    .navDiscografia li a {
-        color: #0a9396;
+    .listaBlinkdiscografia ul li a {
+        color: #219ebc;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
 
 }
 
-.navDiscografia
-{
+.navegarDiscografia {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
 }
 
-.navDiscografia li
-{
-   list-style-type: none;
+.navegarDiscografia li {
+    list-style-type: none;
 }
 
-.navDiscografia li a
-{
+.navegarDiscografia li a {
     text-decoration: none;
     color: #ff0054;
     font-family: Arial, Helvetica, sans-serif;
@@ -1243,7 +1231,7 @@
     }
 }
 
-.navDiscografia li a {
+.navegarDiscografia li a {
     animation-name: aparecer;
     animation-duration: 2s;
     animation-timing-function: linear;
@@ -1567,21 +1555,18 @@
 
 /*GALERIA*/
 
-.navGaleria
-{
+.navGaleria {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
 }
 
-.navGaleria li
-{
-   list-style-type: none;
+.navGaleria li {
+    list-style-type: none;
 }
 
-.navGaleria li a
-{
+.navGaleria li a {
     text-decoration: none;
     color: #ff0054;
     font-family: Arial, Helvetica, sans-serif;
@@ -1766,8 +1751,7 @@
     align-items: center;
 }
 
-.instaGaleria
-{
+.instaGaleria {
     width: 200px;
     height: 200px;
 }
@@ -1780,8 +1764,21 @@
     padding: 5px;
 }*/
 
+
     .galeriaBlink182 {
         overflow-x: hidden;
+    }
+
+    .listaBlinkgaleria ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .listaBlinkgaleria ul li a {
+        color: #219ebc;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
     .blinkJoven {
@@ -1840,11 +1837,25 @@
         padding: 5px;
     }
 
+
+
 }
 
 @media screen and (max-width: 500px) {
     .galeriaBlink182 {
         overflow-x: hidden;
+    }
+
+    .listaBlinkgaleria ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .listaBlinkgaleria ul li a {
+        color: #0a9396;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
     .blinkTrio {
@@ -1864,5 +1875,7 @@
     .gorraBlink182 {
         padding: 5px;
     }
+
+
 
 }
