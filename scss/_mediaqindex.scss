@@ -70,8 +70,17 @@
     }
 
     .contenedor3 {
-        .letraRosa{
+        .letraRosa {
             width: 100%;
+
+            .letraRosa .parrafoInicial {
+                background-image: url(../imagenes/logoindex.png);
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+
+            }
         }
     }
 
@@ -120,6 +129,7 @@
 
     .letraRosa {
         grid-area: historia;
+
     }
 
     .imagenInicial {
@@ -155,7 +165,15 @@
         }
     }
 
-
+    .contenedor3 {
+        .letraRosa {
+            background-image: url(../imagenes/logoindex.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    }
 
     .contenedor4 {
         width: auto;

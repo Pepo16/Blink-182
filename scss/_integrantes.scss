@@ -46,7 +46,7 @@
 
     .navIntegrantes li a {
         text-decoration: none;
-        color: #ff0054;
+        color: #219ebc;
         font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -84,14 +84,14 @@
     }
 
 
-    $estilos: (color: #ff006d,
+    $estilos: (color: #219ebc,
         signo: 'league gothic',
         tFuente: 25px,
         margen: 15px,
         pad: 10px,
     );
 
-    @mixin titulo ($text, $margin, $bottom, $tFuente, $fuente, $color){
+    @mixin titulo ($text, $margin, $bottom, $tFuente, $fuente, $color) {
         text-align: $text;
         margin-top: $margin;
         margin-bottom: $bottom;
@@ -102,14 +102,13 @@
 
 
     .contenedorMark {
-        background-image: url(../imagenes/Blink-182-Logo.png);
+        background-image: url(../imagenes/markcontenedor.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
 
         .tituloMark {
-            @include titulo(center,30px ,15px ,40px ,italic ,blue )
-
+            @include titulo(center, 30px, 15px, 40px, italic, blue)
         }
 
         .introduccionMark {
@@ -171,11 +170,12 @@
     }
 
     .contenedorTom {
+        background-image: url(../imagenes/tomcontenedor.jpg);
         @extend.contenedorMark;
         border: 0.2px dashed black;
 
         .tomDelonge {
-            @include titulo(center,30px ,15px ,40px ,italic ,blue )
+            @include titulo(center, 30px, 15px, 40px, italic, blue)
         }
 
         .articleTom .introduccionTom {
@@ -221,13 +221,13 @@
     }
 
     .contenedorTravis {
+        background-image: url(../imagenes/traviscontenderor.jpg);
         @extend.contenedorMark;
-        
-        
+
+
 
         .tituloTravis .travisBarker {
-            @include titulo(center ,30px ,15px ,40px ,italic ,blue )
-
+            @include titulo(center, 30px, 15px, 40px, italic, blue)
         }
 
         .articleTravis .introduccionTravis {

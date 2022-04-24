@@ -699,7 +699,7 @@
         height: 100vh;
         width: 100vw;
         overflow-x: hidden;
-        background-image: url(../imagenes/marmolblanco.jpg);
+        
     }
 
     .historiaBlink {
@@ -717,7 +717,7 @@
     }
 
     .listaBlinkhistoria ul li a {
-        color: #0a9396;
+        color: white;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         text-decoration: none;
     }
@@ -726,9 +726,7 @@
         padding: 30px
     }
 
-    .articuloPrimerospasos {
-        background-image: url(../imagenes/marmolblanco.jpg);
-    }
+    
 
 
     .superJovenes {
@@ -753,13 +751,13 @@
     }
 
     .listaBlinkhistoria ul li a {
-        color: #0a9396;
+        color: white;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
     .articuloPrimerospasos {
         padding: 30px;
-        background-image: url(../imagenes/marmolblanco.jpg);
+        
     }
 
     .superJovenes {
@@ -774,6 +772,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+
 }
 
 .navegacionHistoria li {
@@ -782,7 +781,7 @@
 
 .navegacionHistoria li a {
     text-decoration: none;
-    color: #ff0054;
+    color:#219ebc;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -825,12 +824,19 @@
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
+    background: linear-gradient(rgba(95, 105, 105, 0.404), rgba(94, 101, 102, 0.486)),
+        url(../imagenes/fondohistoria.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+
+
 }
 
 .historiaBlink {
     text-align: center;
     color: #ff006d;
-    background-color: #219ebc;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
 }
@@ -838,15 +844,17 @@
 .articuloPrimerospasos {
 
     font-family: 'Kanit';
-    color: red;
+    color: white;
     font-weight: bold;
     padding: 30px;
     line-height: 30px;
-    background-image: url(../imagenes/Blink-182-Logo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 
+
+}
+
+
+.superJovenes {
+    margin-top: 20px;
 }
 
 .galeriaBlink {
@@ -920,7 +928,7 @@
 
 .navContacto li a {
     text-decoration: none;
-    color: #ff0054;
+    color: #219ebc;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -1200,7 +1208,7 @@
 
 .navegarDiscografia li a {
     text-decoration: none;
-    color: #ff0054;
+    color: #219ebc;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -1555,6 +1563,8 @@
 
 /*GALERIA*/
 
+
+
 .navGaleria {
     display: flex;
     flex-direction: row;
@@ -1568,7 +1578,7 @@
 
 .navGaleria li a {
     text-decoration: none;
-    color: #ff0054;
+    color: #219ebc;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -1684,7 +1694,9 @@
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
-    background-image: url(../imagenes/marmol.jpg);
+    background-image: url(../imagenes/fondogaleria.jpg);
+    background-repeat: repeat;
+    
 }
 
 .blinkJoven {

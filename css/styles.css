@@ -65,7 +65,7 @@
   padding: 10px 10px;
   font-weight: bold;
   border: 1px dashed black;
-  background-image: url(https://www.vhv.rs/dpng/d/564-5648798_blink-182-logo-blink-182-hd-png-download.png);
+  background-image: url(../imagenes/logoindex.png);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -143,7 +143,7 @@
     list-style-type: none; }
   .integrantesBlink182 .navIntegrantes li a {
     text-decoration: none;
-    color: #ff0054;
+    color: #219ebc;
     font-family: Arial, Helvetica, sans-serif; }
 
 @keyframes aparecer {
@@ -165,7 +165,7 @@
     animation-timing-function: linear;
     animation-iteration-count: initial; }
   .integrantesBlink182 .contenedorMark, .integrantesBlink182 .contenedorTom, .integrantesBlink182 .contenedorTravis {
-    background-image: url(../imagenes/Blink-182-Logo.png);
+    background-image: url(../imagenes/markcontenedor.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
@@ -177,7 +177,7 @@
       font-style: italic;
       color: blue; }
     .integrantesBlink182 .contenedorMark .introduccionMark, .integrantesBlink182 .contenedorTom .introduccionMark, .integrantesBlink182 .contenedorTravis .introduccionMark {
-      color: #ff006d;
+      color: #219ebc;
       font-family: "league gothic";
       font-size: 25px;
       margin-top: 15px;
@@ -190,7 +190,7 @@
       font-style: italic;
       color: #219ebc; }
     .integrantesBlink182 .contenedorMark .otros__Trabajos, .integrantesBlink182 .contenedorTom .otros__Trabajos, .integrantesBlink182 .contenedorTravis .otros__Trabajos {
-      color: #ff006d;
+      color: #219ebc;
       font-family: "league gothic";
       font-size: 25px;
       margin-top: 15px;
@@ -203,7 +203,7 @@
       font-style: italic;
       color: #219ebc; }
     .integrantesBlink182 .contenedorMark .vida__Mark, .integrantesBlink182 .contenedorTom .vida__Mark, .integrantesBlink182 .contenedorTravis .vida__Mark {
-      color: #ff006d;
+      color: #219ebc;
       font-family: "league gothic";
       font-size: 25px;
       margin-top: 15px;
@@ -215,6 +215,7 @@
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       margin-top: 5px; }
   .integrantesBlink182 .contenedorTom {
+    background-image: url(../imagenes/tomcontenedor.jpg);
     border: 0.2px dashed black; }
     .integrantesBlink182 .contenedorTom .tomDelonge {
       text-align: center;
@@ -224,7 +225,7 @@
       font-style: italic;
       color: blue; }
     .integrantesBlink182 .contenedorTom .articleTom .introduccionTom {
-      color: #ff006d;
+      color: #219ebc;
       font-family: "league gothic";
       font-size: 25px;
       margin-top: 15px;
@@ -237,7 +238,7 @@
       font-style: italic;
       color: #219ebc; }
     .integrantesBlink182 .contenedorTom .vida__Tom {
-      color: #ff006d;
+      color: #219ebc;
       font-family: "league gothic";
       font-size: 25px;
       margin-top: 15px;
@@ -249,52 +250,54 @@
       color: #0a9396;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       margin-top: 5px; }
-  .integrantesBlink182 .contenedorTravis .tituloTravis .travisBarker {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    font-size: 40px;
-    font-style: italic;
-    color: blue; }
-  .integrantesBlink182 .contenedorTravis .articleTravis .introduccionTravis {
-    color: #ff006d;
-    font-family: "league gothic";
-    font-size: 25px;
-    margin-top: 15px;
-    padding: 10px; }
-  .integrantesBlink182 .contenedorTravis .vidaTravis {
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 20px;
-    font-size: 25px;
-    font-style: italic;
-    color: #219ebc; }
-  .integrantesBlink182 .contenedorTravis .vida__Travis {
-    color: #ff006d;
-    font-family: "league gothic";
-    font-size: 25px;
-    margin-top: 15px;
-    padding: 10px; }
-  .integrantesBlink182 .contenedorTravis .fueraMusica {
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 20px;
-    font-size: 25px;
-    font-style: italic;
-    color: #219ebc; }
-  .integrantesBlink182 .contenedorTravis .fuera__Musica {
-    color: #ff006d;
-    font-family: "league gothic";
-    font-size: 25px;
-    margin-top: 15px;
-    padding: 10px; }
-  .integrantesBlink182 .contenedorTravis .fotoTravis {
-    text-align: right;
-    margin-top: 15px; }
-  .integrantesBlink182 .contenedorTravis .foto__Travis {
-    color: #219ebc;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 5px; }
+  .integrantesBlink182 .contenedorTravis {
+    background-image: url(../imagenes/traviscontenderor.jpg); }
+    .integrantesBlink182 .contenedorTravis .tituloTravis .travisBarker {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      font-size: 40px;
+      font-style: italic;
+      color: blue; }
+    .integrantesBlink182 .contenedorTravis .articleTravis .introduccionTravis {
+      color: #219ebc;
+      font-family: "league gothic";
+      font-size: 25px;
+      margin-top: 15px;
+      padding: 10px; }
+    .integrantesBlink182 .contenedorTravis .vidaTravis {
+      text-align: left;
+      margin-top: 10px;
+      margin-left: 20px;
+      font-size: 25px;
+      font-style: italic;
+      color: #219ebc; }
+    .integrantesBlink182 .contenedorTravis .vida__Travis {
+      color: #219ebc;
+      font-family: "league gothic";
+      font-size: 25px;
+      margin-top: 15px;
+      padding: 10px; }
+    .integrantesBlink182 .contenedorTravis .fueraMusica {
+      text-align: left;
+      margin-top: 10px;
+      margin-left: 20px;
+      font-size: 25px;
+      font-style: italic;
+      color: #219ebc; }
+    .integrantesBlink182 .contenedorTravis .fuera__Musica {
+      color: #219ebc;
+      font-family: "league gothic";
+      font-size: 25px;
+      margin-top: 15px;
+      padding: 10px; }
+    .integrantesBlink182 .contenedorTravis .fotoTravis {
+      text-align: right;
+      margin-top: 15px; }
+    .integrantesBlink182 .contenedorTravis .foto__Travis {
+      color: #219ebc;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-top: 5px; }
   .integrantesBlink182 .volverPaginaa {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -348,6 +351,12 @@
       flex-wrap: wrap; }
   .contenedor3 .letraRosa {
     width: 100%; }
+    .contenedor3 .letraRosa .letraRosa .parrafoInicial {
+      background-image: url(../imagenes/logoindex.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover; }
   .contenedor4 {
     width: 100vw; }
     .contenedor4 .imagenInicial {
@@ -390,6 +399,12 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center; }
+  .contenedor3 .letraRosa {
+    background-image: url(../imagenes/logoindex.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; }
   .contenedor4 {
     width: auto;
     height: auto; }
@@ -402,7 +417,7 @@
 @media screen and (max-width: 500px) {
   .integrantesBlink182 {
     width: 100vw;
-    background-image: url(../imagenes/marmolblanco.jpg);
+    background-image: url(../imagenes/Blink-182-Logo.png);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr;
@@ -418,11 +433,14 @@
       width: auto;
       height: auto; }
     .integrantesBlink182 .contenedorMark, .integrantesBlink182 .contenedorTom, .integrantesBlink182 .contenedorTravis {
-      width: 100vw; }
+      width: 100vw;
+      background-image: url(../imagenes/Blink-182-Logo.png); }
     .integrantesBlink182 .contenedorTom {
-      width: 100vw; }
+      width: 100vw;
+      background-image: url(../imagenes/Blink-182-Logo.png); }
     .integrantesBlink182 .contenedorTravis {
-      width: 100vw; }
+      width: 100vw;
+      background-image: url(../imagenes/Blink-182-Logo.png); }
     .integrantesBlink182 .contenedorFooterinicio {
       width: 100vw; } }
 
@@ -430,7 +448,7 @@
   .integrantesBlink182 {
     width: 100vw;
     max-width: 100%;
-    background-image: url(../imagenes/marmolblanco.jpg);
+    background-image: url(../imagenes/Blink-182-Logo.png);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr;
@@ -444,10 +462,13 @@
       color: #0a9396;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
     .integrantesBlink182 .contenedorMark, .integrantesBlink182 .contenedorTom, .integrantesBlink182 .contenedorTravis {
-      width: 100vw; }
+      width: 100vw;
+      background-image: url(../imagenes/Blink-182-Logo.png); }
     .integrantesBlink182 .contenedorTom {
-      width: 100vw; }
+      width: 100vw;
+      background-image: url(../imagenes/Blink-182-Logo.png); }
     .integrantesBlink182 .contenedorTravis {
-      width: 100vw; }
+      width: 100vw;
+      background-image: url(../imagenes/Blink-182-Logo.png); }
     .integrantesBlink182 .contenedorFooterinicio {
       width: 100vw; } }
