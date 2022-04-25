@@ -1,4 +1,9 @@
 @media screen and (max-width: 500px) {
+    body {
+        width: 100vw;
+        max-width: 100%;
+    }
+
     .paginaInicialblink {
         width: 100vw;
         grid-template-columns: 1fr;
@@ -13,7 +18,7 @@
 
     .inicioBlink h1 {
         grid-area: titulo;
-        width: 100vw;
+        
         display: inline-block;
     }
 
@@ -48,7 +53,7 @@
     }
 
     .contenedor2 {
-        width: 100vw;
+        
 
         .logoBlink {
             display: block;
@@ -71,21 +76,19 @@
 
     .contenedor3 {
         .letraRosa {
-            width: 100%;
+            
 
             .letraRosa .parrafoInicial {
                 background-image: url(../imagenes/logoindex.png);
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-size: cover;
+                background-repeat: repeat;
+                
 
             }
         }
     }
 
     .contenedor4 {
-        width: 100vw;
+        
 
         .imagenInicial {
             width: 500px;
@@ -95,7 +98,7 @@
 
 
     .contenedor5 {
-        width: 100vw;
+        
 
         .footerBlink {
             display: flex;
@@ -106,6 +109,11 @@
 }
 
 @media screen and (max-width: 800px) {
+    body {
+        width: 100vw;
+        max-width: 100%;
+    }
+
     .paginaInicialblink {
         width: 100vh;
         grid-template-columns: 1fr;
@@ -168,10 +176,8 @@
     .contenedor3 {
         .letraRosa {
             background-image: url(../imagenes/logoindex.png);
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
+            background-repeat: repeat;
+            
         }
     }
 

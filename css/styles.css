@@ -67,7 +67,8 @@
   border: 1px dashed black;
   background-image: url(../imagenes/logoindex.png);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position-x: right; }
 
 .contenedor4 {
   width: auto;
@@ -314,6 +315,9 @@
   align-items: center; }
 
 @media screen and (max-width: 500px) {
+  body {
+    width: 100vw;
+    max-width: 100%; }
   .paginaInicialblink {
     width: 100vw;
     grid-template-columns: 1fr;
@@ -321,7 +325,6 @@
     grid-template-areas: "titulo" "logo" "historia" "imagen" "footer"; }
   .inicioBlink h1 {
     grid-area: titulo;
-    width: 100vw;
     display: inline-block; }
   .headerBlink {
     grid-area: logo; }
@@ -337,38 +340,30 @@
     font-family: Arial, Helvetica, sans-serif; }
     .contenedor1 main h3 {
       display: inline-block; }
-  .contenedor2 {
-    width: 100vw; }
-    .contenedor2 .logoBlink {
-      display: block;
-      margin-left: auto;
-      margin-right: auto; }
-    .contenedor2 .listaBlink {
-      list-style-type: none; }
-    .contenedor2 .listaBlink li {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap; }
-  .contenedor3 .letraRosa {
-    width: 100%; }
-    .contenedor3 .letraRosa .letraRosa .parrafoInicial {
-      background-image: url(../imagenes/logoindex.png);
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover; }
-  .contenedor4 {
-    width: 100vw; }
-    .contenedor4 .imagenInicial {
-      width: 500px; }
-  .contenedor5 {
-    width: 100vw; }
-    .contenedor5 .footerBlink {
-      display: flex;
-      justify-content: center;
-      align-items: center; } }
+  .contenedor2 .logoBlink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  .contenedor2 .listaBlink {
+    list-style-type: none; }
+  .contenedor2 .listaBlink li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .contenedor3 .letraRosa .letraRosa .parrafoInicial {
+    background-image: url(../imagenes/logoindex.png);
+    background-repeat: repeat; }
+  .contenedor4 .imagenInicial {
+    width: 500px; }
+  .contenedor5 .footerBlink {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
 
 @media screen and (max-width: 800px) {
+  body {
+    width: 100vw;
+    max-width: 100%; }
   .paginaInicialblink {
     width: 100vh;
     grid-template-columns: 1fr;
@@ -401,10 +396,7 @@
     justify-content: center; }
   .contenedor3 .letraRosa {
     background-image: url(../imagenes/logoindex.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover; }
+    background-repeat: repeat; }
   .contenedor4 {
     width: auto;
     height: auto; }
