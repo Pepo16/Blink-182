@@ -100,7 +100,7 @@
 
 }
 
-.letraRosa .parrafoInicial {
+.letraRosa {
     color: #ff006d;
     font-family: 'Fredoka';
     margin-top: 10px;
@@ -110,7 +110,11 @@
     background-image: url(../imagenes/logoindex.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: right;
+
+    .parrafoBlink {
+        color: #219ebc;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 }
 
 

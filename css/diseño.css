@@ -851,8 +851,12 @@
     font-weight: bold;
     padding: 30px;
     line-height: 30px;
+}
 
-
+.primerosPasos {
+    color:white;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
