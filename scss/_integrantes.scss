@@ -84,7 +84,7 @@
     }
 
 
-    $estilos: (color: #219ebc,
+    $estilos: (color: #ff006d,
         signo: 'league gothic',
         tFuente: 25px,
         margen: 15px,
@@ -108,7 +108,7 @@
         background-size: cover;
 
         .tituloMark {
-            @include titulo(center, 30px, 15px, 40px, italic, #ff006d)
+            @include titulo(center, 30px, 15px, 40px, italic, #219ebc)
         }
 
         .introduccionMark {
@@ -125,7 +125,7 @@
             margin-left: 20px;
             font-size: 25px;
             font-style: italic;
-            color:#ff006d;
+            color:#219ebc;
         }
 
         .otros__Trabajos {
@@ -142,7 +142,7 @@
             margin-left: 20px;
             font-size: 25px;
             font-style: italic;
-            color:#ff006d;
+            color:#219ebc;
 
         }
 
@@ -175,7 +175,7 @@
         border: 0.2px dashed black;
 
         .tomDelonge {
-            @include titulo(center, 30px, 15px, 40px, italic, #ff006d)
+            @include titulo(center, 30px, 15px, 40px, italic, #219ebc)
         }
 
         .articleTom .introduccionTom {
@@ -193,7 +193,7 @@
             margin-left: 20px;
             font-size: 25px;
             font-style: italic;
-            color:#ff006d;
+            color:#219ebc;
 
         }
 
@@ -227,7 +227,7 @@
 
 
         .tituloTravis .travisBarker {
-            @include titulo(center, 30px, 15px, 40px, italic, #ff006d)
+            @include titulo(center, 30px, 15px, 40px, italic, #219ebc)
         }
 
         .articleTravis .introduccionTravis {
@@ -245,7 +245,7 @@
             margin-left: 20px;
             font-size: 25px;
             font-style: italic;
-            color: #ff006d;
+            color: #219ebc;
 
         }
 
@@ -263,7 +263,7 @@
             margin-left: 20px;
             font-size: 25px;
             font-style: italic;
-            color:#ff006d;
+            color:#219ebc;
 
         }
 
