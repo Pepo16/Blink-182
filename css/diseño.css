@@ -834,7 +834,7 @@
 
 .historiaBlink {
     text-align: center;
-    color: black;
+    color: #ff206e;
     font-family: 'Fredoka' ;
     font-size: 25px;
 }
@@ -842,7 +842,7 @@
 .articuloPrimerospasos {
 
     font-family: 'Fredoka';
-    color: black;
+    color: #0c0f0a;
     
     padding: 30px;
     line-height: 30px;
@@ -964,6 +964,30 @@
     color: #ff006d;
     margin-left: 5px;
     text-align: center;
+}
+
+.lTa {
+    font-family: 'Fredoka' ;
+    font-size: 18px;
+    color: #0c0f0a;
+}
+
+.form-control {
+    font-family: 'Fredoka';
+    font-size: 18px;
+    color: #0c0f0a;
+}
+
+.btn-primary {
+    font-family: 'Fredoka';
+    font-size: 18px;
+    color: #0c0f0a;
+}
+
+.form-text {
+    font-family: 'Fredoka';
+    font-size: 15px;
+    color: #0c0f0a;
 }
 
 
@@ -1238,7 +1262,7 @@
     font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: black;
+    color: #ff206e;
     text-decoration: underline;
 }
 
@@ -1252,14 +1276,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .primerCd {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .iframeBuddha {
@@ -1272,7 +1296,7 @@
     font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: black;
+    color: #ff206e;
     text-decoration: underline;
 }
 
@@ -1286,14 +1310,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .escuchaCheshire {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .iframeCheshire {
@@ -1307,7 +1331,7 @@
     font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: black;
+    color: #ff206e;
     text-decoration: underline;
 }
 
@@ -1321,14 +1345,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .escuchaDude {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .iframeDude {
@@ -1341,7 +1365,7 @@
     font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color:black;
+    color:#ff206e;
     text-decoration: underline;
 }
 
@@ -1355,14 +1379,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .escuchaEnema {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .iframeEnema {
@@ -1375,7 +1399,7 @@
     font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: black;
+    color: #ff206e;
     text-decoration: underline;
 }
 
@@ -1389,14 +1413,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .escuchaPants {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .iframePants {
@@ -1409,7 +1433,7 @@
     font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: black;
+    color: #ff206e;
     text-decoration: underline;
 }
 
@@ -1423,14 +1447,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .escuchaBlink {
     font-family:'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .iframeBlinkalbum {
@@ -1443,7 +1467,7 @@
     font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: black;
+    color: #ff206e;
     text-decoration: underline;
 }
 
@@ -1459,14 +1483,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .escuchaNeighborhoods {
     font-family:'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .iframeNeighborhoods {
@@ -1479,7 +1503,7 @@
     font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: black;
+    color: #ff206e;
     text-decoration: underline;
 }
 
@@ -1493,14 +1517,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .escuchaCalifornia {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .iframeCalifornia {
@@ -1513,7 +1537,7 @@
     font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: black;
+    color: #ff206e;
     text-decoration: underline;
 }
 
@@ -1527,14 +1551,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .escuchaNine {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: black;
+    color: #0c0f0a;
 }
 
 .iframeNine {
@@ -1551,7 +1575,7 @@
 
 .vuelve__Paginaprincipal {
     text-decoration: none;
-    color: black;
+    color: #0c0f0a;
 }
 
 .footerBlink182 {
@@ -1782,7 +1806,7 @@
     }
 
     .listaBlinkgaleria ul li a {
-        color: #219ebc;
+        color: #0c0f0a;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
@@ -1859,7 +1883,7 @@
     }
 
     .listaBlinkgaleria ul li a {
-        color: #0a9396;
+        color: #0c0f0a;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 

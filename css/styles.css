@@ -61,12 +61,10 @@
   margin-top: 30px; }
 
 .letraRosa {
-  color: black;
+  color: #0c0f0a;
   font-family: 'Fredoka';
   margin-top: 10px;
   padding: 10px 10px;
-  font-weight: bold;
-  border: 1px dashed black;
   background-image: url(../imagenes/logoindex.png);
   background-repeat: no-repeat;
   background-size: cover; }
@@ -178,9 +176,9 @@
       margin-bottom: 15px;
       font-size: 40px;
       font-style: italic;
-      color: black; }
+      color: #ff206e; }
     .integrantesBlink182 .contenedorMark .introduccionMark {
-      color: black;
+      color: #0c0f0a;
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
@@ -191,9 +189,9 @@
       margin-left: 20px;
       font-size: 30px;
       font-style: italic;
-      color: black; }
+      color: #ff206e; }
     .integrantesBlink182 .contenedorMark .otros__Trabajos {
-      color: black;
+      color: #0c0f0a;
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
@@ -204,9 +202,9 @@
       margin-left: 20px;
       font-size: 30px;
       font-style: italic;
-      color: black; }
+      color: #ff206e; }
     .integrantesBlink182 .contenedorMark .vida__Mark {
-      color: black;
+      color: #0c0f0a;
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
@@ -214,7 +212,7 @@
     .integrantesBlink182 .contenedorMark .imagenMark {
       margin-top: 35px; }
     .integrantesBlink182 .contenedorMark .foto__Mark {
-      color: black;
+      color: #0c0f0a;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       margin-top: 5px; }
   .integrantesBlink182 .contenedorTom {
@@ -227,9 +225,9 @@
       margin-bottom: 15px;
       font-size: 40px;
       font-style: italic;
-      color: black; }
+      color: #ff206e; }
     .integrantesBlink182 .contenedorTom .articleTom .introduccionTom {
-      color: black;
+      color: #0c0f0a;
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
@@ -240,9 +238,9 @@
       margin-left: 20px;
       font-size: 30px;
       font-style: italic;
-      color: black; }
+      color: #ff206e; }
     .integrantesBlink182 .contenedorTom .vida__Tom {
-      color: black;
+      color: #0c0f0a;
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
@@ -251,7 +249,7 @@
       text-align: right;
       margin-top: 15px; }
     .integrantesBlink182 .contenedorTom .foto__Tom {
-      color: black;
+      color: #0c0f0a;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       margin-top: 5px; }
   .integrantesBlink182 .contenedorTravis {
@@ -263,9 +261,9 @@
       margin-bottom: 15px;
       font-size: 40px;
       font-style: italic;
-      color: black; }
+      color: #ff206e; }
     .integrantesBlink182 .contenedorTravis .articleTravis .introduccionTravis {
-      color: black;
+      color: #0c0f0a;
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
@@ -276,9 +274,9 @@
       margin-left: 20px;
       font-size: 30px;
       font-style: italic;
-      color: black; }
+      color: #ff206e; }
     .integrantesBlink182 .contenedorTravis .vida__Travis {
-      color: black;
+      color: #0c0f0a;
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
@@ -289,9 +287,9 @@
       margin-left: 20px;
       font-size: 30px;
       font-style: italic;
-      color: black; }
+      color: #ff206e; }
     .integrantesBlink182 .contenedorTravis .fuera__Musica {
-      color: black;
+      color: #0c0f0a;
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
@@ -300,7 +298,7 @@
       text-align: right;
       margin-top: 15px; }
     .integrantesBlink182 .contenedorTravis .foto__Travis {
-      color: black;
+      color: #0c0f0a;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       margin-top: 5px; }
   .integrantesBlink182 .volverPaginaa {

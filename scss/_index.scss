@@ -22,7 +22,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        
+
     }
 
     .letraRosa {
@@ -104,17 +104,15 @@
 }
 
 .letraRosa {
-    color: black;
+    color: #0c0f0a;
     font-family: 'Fredoka';
     margin-top: 10px;
     padding: 10px 10px;
-    font-weight: bold;
-    border: 1px dashed black;
     background-image: url(../imagenes/logoindex.png);
     background-repeat: no-repeat;
     background-size: cover;
 
-    
+
 }
 
 

@@ -86,7 +86,7 @@
     }
 
 
-    $estilos: (color: black,
+    $estilos: (color: #0c0f0a,
         signo: 'Fredoka',
         tFuente: 25px,
         margen: 15px,
@@ -110,7 +110,7 @@
         background-size: cover;*/
 
         .tituloMark {
-            @include titulo(center, 30px, 15px, 40px, italic, black)
+            @include titulo(center, 30px, 15px, 40px, italic, #ff206e)
         }
 
         .introduccionMark {
@@ -127,7 +127,7 @@
             margin-left: 20px;
             font-size: 30px;
             font-style: italic;
-            color:black;
+            color:#ff206e;
         }
 
         .otros__Trabajos {
@@ -144,7 +144,7 @@
             margin-left: 20px;
             font-size: 30px;
             font-style: italic;
-            color:black;
+            color:#ff206e;
 
         }
 
@@ -163,7 +163,7 @@
         }
 
         .foto__Mark {
-            color: black;
+            color: #0c0f0a;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             margin-top: 5px;
 
@@ -177,7 +177,7 @@
         border: 0.2px dashed black;*/
 
         .tomDelonge {
-            @include titulo(center, 30px, 15px, 40px, italic, black)
+            @include titulo(center, 30px, 15px, 40px, italic, #ff206e)
         }
 
         .articleTom .introduccionTom {
@@ -195,7 +195,7 @@
             margin-left: 20px;
             font-size: 30px;
             font-style: italic;
-            color:black;
+            color:#ff206e;
 
         }
 
@@ -214,7 +214,7 @@
         }
 
         .foto__Tom {
-            color: black;
+            color: #0c0f0a;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             margin-top: 5px;
 
@@ -229,7 +229,7 @@
 
 
         .tituloTravis .travisBarker {
-            @include titulo(center, 30px, 15px, 40px, italic, black)
+            @include titulo(center, 30px, 15px, 40px, italic, #ff206e)
         }
 
         .articleTravis .introduccionTravis {
@@ -247,7 +247,7 @@
             margin-left: 20px;
             font-size: 30px;
             font-style: italic;
-            color: black;
+            color: #ff206e;
 
         }
 
@@ -265,7 +265,7 @@
             margin-left: 20px;
             font-size: 30px;
             font-style: italic;
-            color:black;
+            color:#ff206e;
 
         }
 
@@ -285,7 +285,7 @@
         }
 
         .foto__Travis {
-            color: black;
+            color: #0c0f0a;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             margin-top: 5px;
 
