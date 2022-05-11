@@ -43,7 +43,9 @@
     width: 25%;
     font-size: 14px; }
   .paginaInicialblink li a {
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 20px;
+    color: black; }
 
 .contenedor3 {
   margin-top: 20px;
@@ -59,7 +61,7 @@
   margin-top: 30px; }
 
 .letraRosa {
-  color: #ff006d;
+  color: black;
   font-family: 'Fredoka';
   margin-top: 10px;
   padding: 10px 10px;
@@ -68,9 +70,6 @@
   background-image: url(../imagenes/logoindex.png);
   background-repeat: no-repeat;
   background-size: cover; }
-  .letraRosa .parrafoBlink {
-    color: #219ebc;
-    font-family: Georgia, 'Times New Roman', Times, serif; }
 
 .contenedor4 {
   width: auto;
@@ -118,6 +117,7 @@
 .integrantesBlink182 {
   margin: 0%;
   padding: 0%;
+  background-image: url(../imagenes/logoindex.png);
   /* display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     grid-template-rows: 0.3fr 0.2fr 0.2fr 0.02fr;
@@ -146,8 +146,8 @@
     list-style-type: none; }
   .integrantesBlink182 .navIntegrantes li a {
     text-decoration: none;
-    color: #219ebc;
-    font-family: Arial, Helvetica, sans-serif; }
+    color: black;
+    font-size: 20px; }
 
 @keyframes aparecer {
   0% {
@@ -167,69 +167,70 @@
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: initial; }
-  .integrantesBlink182 .contenedorMark, .integrantesBlink182 .contenedorTom, .integrantesBlink182 .contenedorTravis {
-    background-image: url(../imagenes/markcontenedor.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; }
-    .integrantesBlink182 .contenedorMark .tituloMark, .integrantesBlink182 .contenedorTom .tituloMark, .integrantesBlink182 .contenedorTravis .tituloMark {
+  .integrantesBlink182 .contenedorMark {
+    /* background-image: url(../imagenes/logoindex.png);
+        background-repeat: repeat;
+        background-position: center;
+        background-size: cover;*/ }
+    .integrantesBlink182 .contenedorMark .tituloMark {
       text-align: center;
       margin-top: 30px;
       margin-bottom: 15px;
       font-size: 40px;
       font-style: italic;
-      color: #219ebc; }
-    .integrantesBlink182 .contenedorMark .introduccionMark, .integrantesBlink182 .contenedorTom .introduccionMark, .integrantesBlink182 .contenedorTravis .introduccionMark {
-      color: #ff006d;
-      font-family: "league gothic";
+      color: black; }
+    .integrantesBlink182 .contenedorMark .introduccionMark {
+      color: black;
+      font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
       padding: 10px; }
-    .integrantesBlink182 .contenedorMark .otrosTrabajos, .integrantesBlink182 .contenedorTom .otrosTrabajos, .integrantesBlink182 .contenedorTravis .otrosTrabajos {
+    .integrantesBlink182 .contenedorMark .otrosTrabajos {
       text-align: left;
       margin-top: 10px;
       margin-left: 20px;
-      font-size: 25px;
+      font-size: 30px;
       font-style: italic;
-      color: #219ebc; }
-    .integrantesBlink182 .contenedorMark .otros__Trabajos, .integrantesBlink182 .contenedorTom .otros__Trabajos, .integrantesBlink182 .contenedorTravis .otros__Trabajos {
-      color: #ff006d;
-      font-family: "league gothic";
+      color: black; }
+    .integrantesBlink182 .contenedorMark .otros__Trabajos {
+      color: black;
+      font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
       padding: 10px; }
-    .integrantesBlink182 .contenedorMark .vidaMark, .integrantesBlink182 .contenedorTom .vidaMark, .integrantesBlink182 .contenedorTravis .vidaMark {
+    .integrantesBlink182 .contenedorMark .vidaMark {
       text-align: left;
       margin-top: 10px;
       margin-left: 20px;
-      font-size: 25px;
+      font-size: 30px;
       font-style: italic;
-      color: #219ebc; }
-    .integrantesBlink182 .contenedorMark .vida__Mark, .integrantesBlink182 .contenedorTom .vida__Mark, .integrantesBlink182 .contenedorTravis .vida__Mark {
-      color: #ff006d;
-      font-family: "league gothic";
+      color: black; }
+    .integrantesBlink182 .contenedorMark .vida__Mark {
+      color: black;
+      font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
       padding: 10px; }
-    .integrantesBlink182 .contenedorMark .imagenMark, .integrantesBlink182 .contenedorTom .imagenMark, .integrantesBlink182 .contenedorTravis .imagenMark {
+    .integrantesBlink182 .contenedorMark .imagenMark {
       margin-top: 35px; }
-    .integrantesBlink182 .contenedorMark .foto__Mark, .integrantesBlink182 .contenedorTom .foto__Mark, .integrantesBlink182 .contenedorTravis .foto__Mark {
-      color: #219ebc;
+    .integrantesBlink182 .contenedorMark .foto__Mark {
+      color: black;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       margin-top: 5px; }
   .integrantesBlink182 .contenedorTom {
-    background-image: url(../imagenes/tomcontenedor.jpg);
-    border: 0.2px dashed black; }
+    /* background-image: url(../imagenes/tomcontenedor.jpg);
+        @extend.contenedorMark;
+        border: 0.2px dashed black;*/ }
     .integrantesBlink182 .contenedorTom .tomDelonge {
       text-align: center;
       margin-top: 30px;
       margin-bottom: 15px;
       font-size: 40px;
       font-style: italic;
-      color: #219ebc; }
+      color: black; }
     .integrantesBlink182 .contenedorTom .articleTom .introduccionTom {
-      color: #ff006d;
-      font-family: "league gothic";
+      color: black;
+      font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
       padding: 10px; }
@@ -237,12 +238,12 @@
       text-align: left;
       margin-top: 10px;
       margin-left: 20px;
-      font-size: 25px;
+      font-size: 30px;
       font-style: italic;
-      color: #219ebc; }
+      color: black; }
     .integrantesBlink182 .contenedorTom .vida__Tom {
-      color: #ff006d;
-      font-family: "league gothic";
+      color: black;
+      font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
       padding: 10px; }
@@ -250,21 +251,22 @@
       text-align: right;
       margin-top: 15px; }
     .integrantesBlink182 .contenedorTom .foto__Tom {
-      color: #0a9396;
+      color: black;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       margin-top: 5px; }
   .integrantesBlink182 .contenedorTravis {
-    background-image: url(../imagenes/traviscontenderor.jpg); }
+    /*  background-image: url(../imagenes/traviscontenderor.jpg);
+        @extend.contenedorMark;*/ }
     .integrantesBlink182 .contenedorTravis .tituloTravis .travisBarker {
       text-align: center;
       margin-top: 30px;
       margin-bottom: 15px;
       font-size: 40px;
       font-style: italic;
-      color: #219ebc; }
+      color: black; }
     .integrantesBlink182 .contenedorTravis .articleTravis .introduccionTravis {
-      color: #ff006d;
-      font-family: "league gothic";
+      color: black;
+      font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
       padding: 10px; }
@@ -272,12 +274,12 @@
       text-align: left;
       margin-top: 10px;
       margin-left: 20px;
-      font-size: 25px;
+      font-size: 30px;
       font-style: italic;
-      color: #219ebc; }
+      color: black; }
     .integrantesBlink182 .contenedorTravis .vida__Travis {
-      color: #ff006d;
-      font-family: "league gothic";
+      color: black;
+      font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
       padding: 10px; }
@@ -285,12 +287,12 @@
       text-align: left;
       margin-top: 10px;
       margin-left: 20px;
-      font-size: 25px;
+      font-size: 30px;
       font-style: italic;
-      color: #219ebc; }
+      color: black; }
     .integrantesBlink182 .contenedorTravis .fuera__Musica {
-      color: #ff006d;
-      font-family: "league gothic";
+      color: black;
+      font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
       padding: 10px; }
@@ -298,7 +300,7 @@
       text-align: right;
       margin-top: 15px; }
     .integrantesBlink182 .contenedorTravis .foto__Travis {
-      color: #219ebc;
+      color: black;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       margin-top: 5px; }
   .integrantesBlink182 .volverPaginaa {
@@ -310,7 +312,7 @@
 
 .volver__Paginaa {
   text-decoration: none;
-  color: #ff006d;
+  color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   justify-content: center;
@@ -419,7 +421,7 @@
 @media screen and (max-width: 500px) {
   .integrantesBlink182 {
     width: 100vw;
-    background-image: url(../imagenes/Blink-182-Logo.png);
+    background-image: url(../imagenes/logoindex.png);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr;
@@ -429,20 +431,16 @@
       flex-direction: column;
       flex-wrap: nowrap; }
     .integrantesBlink182 .navIntegrantes li a {
-      color: #0a9396;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+      color: black; }
     .integrantesBlink182 .contenedorFooterinicio a {
       width: auto;
       height: auto; }
-    .integrantesBlink182 .contenedorMark, .integrantesBlink182 .contenedorTom, .integrantesBlink182 .contenedorTravis {
-      width: 100vw;
-      background-image: url(../imagenes/Blink-182-Logo.png); }
+    .integrantesBlink182 .contenedorMark {
+      width: 100vw; }
     .integrantesBlink182 .contenedorTom {
-      width: 100vw;
-      background-image: url(../imagenes/Blink-182-Logo.png); }
+      width: 100vw; }
     .integrantesBlink182 .contenedorTravis {
-      width: 100vw;
-      background-image: url(../imagenes/Blink-182-Logo.png); }
+      width: 100vw; }
     .integrantesBlink182 .contenedorFooterinicio {
       width: 100vw; } }
 
@@ -450,7 +448,7 @@
   .integrantesBlink182 {
     width: 100vw;
     max-width: 100%;
-    background-image: url(../imagenes/Blink-182-Logo.png);
+    background-image: url(../imagenes/logoindex.png);
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr;
@@ -461,16 +459,12 @@
       flex-wrap: nowrap;
       align-items: center; }
     .integrantesBlink182 .navIntegrantes li a {
-      color: #0a9396;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
-    .integrantesBlink182 .contenedorMark, .integrantesBlink182 .contenedorTom, .integrantesBlink182 .contenedorTravis {
-      width: 100vw;
-      background-image: url(../imagenes/Blink-182-Logo.png); }
+      color: black; }
+    .integrantesBlink182 .contenedorMark {
+      width: 100vw; }
     .integrantesBlink182 .contenedorTom {
-      width: 100vw;
-      background-image: url(../imagenes/Blink-182-Logo.png); }
+      width: 100vw; }
     .integrantesBlink182 .contenedorTravis {
-      width: 100vw;
-      background-image: url(../imagenes/Blink-182-Logo.png); }
+      width: 100vw; }
     .integrantesBlink182 .contenedorFooterinicio {
       width: 100vw; } }

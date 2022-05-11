@@ -719,9 +719,8 @@
     }
 
     .listaBlinkhistoria ul li a {
-        color: white;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        text-decoration: none;
+        color: black;
+       
     }
 
     .articuloPrimerospasos {
@@ -754,8 +753,8 @@
     }
 
     .listaBlinkhistoria ul li a {
-        color: white;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: black;
+        
     }
 
     .articuloPrimerospasos {
@@ -784,8 +783,8 @@
 
 .navegacionHistoria li a {
     text-decoration: none;
-    color:#219ebc;
-    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
 
 }
 
@@ -827,38 +826,28 @@
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
-    background: linear-gradient(rgba(95, 105, 105, 0.404), rgba(94, 101, 102, 0.486)),
-        url(../imagenes/fondohistoria.jpg);
-    background-repeat: repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: url(../imagenes/logoindex.png);
+   
 
 
 }
 
 .historiaBlink {
     text-align: center;
-    color: #ff006d;
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-family: 'Fredoka' ;
     font-size: 25px;
 }
 
 .articuloPrimerospasos {
 
-    font-family: 'Kanit';
-    color: white;
-    font-weight: bold;
+    font-family: 'Fredoka';
+    color: black;
+    
     padding: 30px;
     line-height: 30px;
+    font-size: 23px;
 }
-
-.primerosPasos {
-    color:white;
-    text-decoration: underline;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 
 .superJovenes {
     margin-top: 20px;
@@ -902,23 +891,15 @@
     height: 350px;
 }
 
-.volverApagina {
-    margin-bottom: 10px;
-}
 
-.volver__Apagina {
-    text-decoration: none;
-    color: #ff006d;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 
 /*CONTACTO*/
 
 .fondoAzul {
-    background-image: url(../imagenes/blink\ circular.png);
+    background-image: url(../imagenes/logoindex.png);
     background-repeat: repeat;
-    background-size: contain;
+    
 }
 
 
@@ -935,8 +916,8 @@
 
 .navContacto li a {
     text-decoration: none;
-    color: #219ebc;
-    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
 
 }
 
@@ -979,7 +960,7 @@
 }
 
 .deja__Comentario {
-    font-family: 'Open Sans';
+    font-family: 'Fredoka';
     color: #ff006d;
     margin-left: 5px;
     text-align: center;
@@ -1016,8 +997,8 @@
     }
 
     .navContacto li a {
-        color: #0a9396;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: black;
+        
     }
 }
 
@@ -1030,8 +1011,8 @@
     }
 
     .navContacto li a {
-        color: #0a9396;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: black;
+       
     }
 }
 
@@ -1055,7 +1036,7 @@
 }*/
 
 .discografiaBlink {
-    background-image: url(../imagenes/marmolblanco.jpg);
+    background-image: url(../imagenes/logoindex.png);
     /* background-repeat: no-repeat;
     background-size: cover;*/
 }
@@ -1145,8 +1126,8 @@
     }
 
     .listaBlinkdiscografia ul li a {
-        color: #0a9396;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: black;
+        
     }
 
     .footerBlink182 {
@@ -1195,8 +1176,8 @@
     }
 
     .listaBlinkdiscografia ul li a {
-        color: #219ebc;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: black;
+       
     }
 
 
@@ -1215,8 +1196,8 @@
 
 .navegarDiscografia li a {
     text-decoration: none;
-    color: #219ebc;
-    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
 
 }
 
@@ -1254,10 +1235,10 @@
 }
 
 .buddhaDisco {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: #184e77;
+    color: black;
     text-decoration: underline;
 }
 
@@ -1267,17 +1248,18 @@
 }
 
 .listaBuddha {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #00296b;
+    color: black;
 }
 
 .primerCd {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
+    color: black;
 }
 
 .iframeBuddha {
@@ -1287,10 +1269,10 @@
 }
 
 .cheshireDisco {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: #184e77;
+    color: black;
     text-decoration: underline;
 }
 
@@ -1300,17 +1282,18 @@
 }
 
 .listaCheshire {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #00296b;
+    color: black;
 }
 
 .escuchaCheshire {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
+    color: black;
 }
 
 .iframeCheshire {
@@ -1321,10 +1304,10 @@
 
 
 .dudeRanch {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: #184e77;
+    color: black;
     text-decoration: underline;
 }
 
@@ -1334,17 +1317,18 @@
 }
 
 .listaDude {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #00296b;
+    color: black;
 }
 
 .escuchaDude {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
+    color: black;
 }
 
 .iframeDude {
@@ -1354,10 +1338,10 @@
 }
 
 .enemaOfstate {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: #184e77;
+    color:black;
     text-decoration: underline;
 }
 
@@ -1367,17 +1351,18 @@
 }
 
 .listaEnema {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #00296b;
+    color: black;
 }
 
 .escuchaEnema {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
+    color: black;
 }
 
 .iframeEnema {
@@ -1387,10 +1372,10 @@
 }
 
 .takePants {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: #184e77;
+    color: black;
     text-decoration: underline;
 }
 
@@ -1400,17 +1385,18 @@
 }
 
 .listaPants {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #00296b;
+    color: black;
 }
 
 .escuchaPants {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
+    color: black;
 }
 
 .iframePants {
@@ -1420,10 +1406,10 @@
 }
 
 .blinkAlbum {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: #184e77;
+    color: black;
     text-decoration: underline;
 }
 
@@ -1433,17 +1419,18 @@
 }
 
 .listaBlinkalbum {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #00296b;
+    color: black;
 }
 
 .escuchaBlink {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
+    color: black;
 }
 
 .iframeBlinkalbum {
@@ -1453,10 +1440,10 @@
 }
 
 .neiGhborhoods {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: #184e77;
+    color: black;
     text-decoration: underline;
 }
 
@@ -1468,17 +1455,18 @@
 }
 
 .listaNeighborhoods {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #00296b;
+    color: black;
 }
 
 .escuchaNeighborhoods {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
+    color: black;
 }
 
 .iframeNeighborhoods {
@@ -1488,10 +1476,10 @@
 }
 
 .caLifornia {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: #184e77;
+    color: black;
     text-decoration: underline;
 }
 
@@ -1501,17 +1489,18 @@
 }
 
 .listaCalifornia {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #00296b;
+    color: black;
 }
 
 .escuchaCalifornia {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
+    color: black;
 }
 
 .iframeCalifornia {
@@ -1521,10 +1510,10 @@
 }
 
 .niNe {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color: #184e77;
+    color: black;
     text-decoration: underline;
 }
 
@@ -1534,17 +1523,18 @@
 }
 
 .listaNine {
-    font-family: 'Josefin Sans';
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #00296b;
+    color: black;
 }
 
 .escuchaNine {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
+    color: black;
 }
 
 .iframeNine {
@@ -1556,12 +1546,12 @@
 .vuelvePaginaprincipal {
     margin-top: 10px;
     margin-bottom: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Fredoka';
 }
 
 .vuelve__Paginaprincipal {
     text-decoration: none;
-    color: #00296b;
+    color: black;
 }
 
 .footerBlink182 {
@@ -1585,9 +1575,8 @@
 
 .navGaleria li a {
     text-decoration: none;
-    color: #219ebc;
-    font-family: Arial, Helvetica, sans-serif;
-
+    color: black;
+    font-size: 20px;
 }
 
 @keyframes aparecer {
@@ -1698,10 +1687,7 @@
 /*GALERIA*/
 
 .galeriaBlink182 {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-    background-image: url(../imagenes/fondogaleria.jpg);
+    background-image: url(../imagenes/logoindex.png);
     background-repeat: repeat;
     
 }

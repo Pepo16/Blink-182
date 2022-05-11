@@ -1,6 +1,7 @@
 .integrantesBlink182 {
     margin: 0%;
     padding: 0%;
+    background-image: url(../imagenes/logoindex.png);
     /* display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     grid-template-rows: 0.3fr 0.2fr 0.2fr 0.02fr;
@@ -46,8 +47,9 @@
 
     .navIntegrantes li a {
         text-decoration: none;
-        color: #219ebc;
-        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 20px;
+        
     }
 
     @keyframes aparecer {
@@ -84,8 +86,8 @@
     }
 
 
-    $estilos: (color: #ff006d,
-        signo: 'league gothic',
+    $estilos: (color: black,
+        signo: 'Fredoka',
         tFuente: 25px,
         margen: 15px,
         pad: 10px,
@@ -102,13 +104,13 @@
 
 
     .contenedorMark {
-        background-image: url(../imagenes/markcontenedor.jpg);
-        background-repeat: no-repeat;
+       /* background-image: url(../imagenes/logoindex.png);
+        background-repeat: repeat;
         background-position: center;
-        background-size: cover;
+        background-size: cover;*/
 
         .tituloMark {
-            @include titulo(center, 30px, 15px, 40px, italic, #219ebc)
+            @include titulo(center, 30px, 15px, 40px, italic, black)
         }
 
         .introduccionMark {
@@ -123,9 +125,9 @@
             text-align: left;
             margin-top: 10px;
             margin-left: 20px;
-            font-size: 25px;
+            font-size: 30px;
             font-style: italic;
-            color:#219ebc;
+            color:black;
         }
 
         .otros__Trabajos {
@@ -140,9 +142,9 @@
             text-align: left;
             margin-top: 10px;
             margin-left: 20px;
-            font-size: 25px;
+            font-size: 30px;
             font-style: italic;
-            color:#219ebc;
+            color:black;
 
         }
 
@@ -161,7 +163,7 @@
         }
 
         .foto__Mark {
-            color: #219ebc;
+            color: black;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             margin-top: 5px;
 
@@ -170,12 +172,12 @@
     }
 
     .contenedorTom {
-        background-image: url(../imagenes/tomcontenedor.jpg);
+       /* background-image: url(../imagenes/tomcontenedor.jpg);
         @extend.contenedorMark;
-        border: 0.2px dashed black;
+        border: 0.2px dashed black;*/
 
         .tomDelonge {
-            @include titulo(center, 30px, 15px, 40px, italic, #219ebc)
+            @include titulo(center, 30px, 15px, 40px, italic, black)
         }
 
         .articleTom .introduccionTom {
@@ -191,9 +193,9 @@
             text-align: left;
             margin-top: 10px;
             margin-left: 20px;
-            font-size: 25px;
+            font-size: 30px;
             font-style: italic;
-            color:#219ebc;
+            color:black;
 
         }
 
@@ -212,7 +214,7 @@
         }
 
         .foto__Tom {
-            color: #0a9396;
+            color: black;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             margin-top: 5px;
 
@@ -221,13 +223,13 @@
     }
 
     .contenedorTravis {
-        background-image: url(../imagenes/traviscontenderor.jpg);
-        @extend.contenedorMark;
+      /*  background-image: url(../imagenes/traviscontenderor.jpg);
+        @extend.contenedorMark;*/
 
 
 
         .tituloTravis .travisBarker {
-            @include titulo(center, 30px, 15px, 40px, italic, #219ebc)
+            @include titulo(center, 30px, 15px, 40px, italic, black)
         }
 
         .articleTravis .introduccionTravis {
@@ -243,9 +245,9 @@
             text-align: left;
             margin-top: 10px;
             margin-left: 20px;
-            font-size: 25px;
+            font-size: 30px;
             font-style: italic;
-            color: #219ebc;
+            color: black;
 
         }
 
@@ -261,9 +263,9 @@
             text-align: left;
             margin-top: 10px;
             margin-left: 20px;
-            font-size: 25px;
+            font-size: 30px;
             font-style: italic;
-            color:#219ebc;
+            color:black;
 
         }
 
@@ -283,7 +285,7 @@
         }
 
         .foto__Travis {
-            color: #219ebc;
+            color: black;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             margin-top: 5px;
 
@@ -303,7 +305,7 @@
 
 .volver__Paginaa {
     text-decoration: none;
-    color: #ff006d;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;

@@ -22,6 +22,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        
     }
 
     .letraRosa {
@@ -76,6 +77,8 @@
 
     li a {
         text-decoration: none;
+        font-size: 20px;
+        color: black;
     }
 
 }
@@ -101,7 +104,7 @@
 }
 
 .letraRosa {
-    color: #ff006d;
+    color: black;
     font-family: 'Fredoka';
     margin-top: 10px;
     padding: 10px 10px;
@@ -111,10 +114,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    .parrafoBlink {
-        color: #219ebc;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-    }
+    
 }
 
 
