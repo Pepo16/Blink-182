@@ -40,7 +40,7 @@
         background-color: #ff006d;
         color: black;
         font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Fredoka';
         text-align: center;
     }
 
@@ -104,13 +104,14 @@
 }
 
 .letraRosa {
-    color: #0c0f0a;
+    color: white; 
     font-family: 'Fredoka';
+    font-size: 30px;
     margin-top: 10px;
-    padding: 10px 10px;
-    background-image: url(../imagenes/logoindex.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding: 25px 30px;
+    background-image: url(../imagenes/fondohistoria.jpg);
+    background-repeat: repeat;
+   
 
 
 }

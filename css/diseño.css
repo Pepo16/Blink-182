@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 .paginaInicialblink {
@@ -719,7 +720,7 @@
     }
 
     .listaBlinkhistoria ul li a {
-        color: black;
+        color: white;
        
     }
 
@@ -753,7 +754,7 @@
     }
 
     .listaBlinkhistoria ul li a {
-        color: black;
+        color: white;
         
     }
 
@@ -783,7 +784,7 @@
 
 .navegacionHistoria li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
 
 }
@@ -826,7 +827,7 @@
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
-    background-image: url(../imagenes/logoindex.png);
+    background-image: url(../imagenes/fondohistoria.jpg);
    
 
 
@@ -842,7 +843,7 @@
 .articuloPrimerospasos {
 
     font-family: 'Fredoka';
-    color: #0c0f0a;
+    color: white;
     
     padding: 30px;
     line-height: 30px;
@@ -897,7 +898,7 @@
 /*CONTACTO*/
 
 .fondoAzul {
-    background-image: url(../imagenes/logoindex.png);
+    background-image: url(../imagenes/fondohistoria.jpg);
     background-repeat: repeat;
     
 }
@@ -916,7 +917,7 @@
 
 .navContacto li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
 
 }
@@ -969,25 +970,25 @@
 .lTa {
     font-family: 'Fredoka' ;
     font-size: 18px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .form-control {
     font-family: 'Fredoka';
     font-size: 18px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .btn-primary {
     font-family: 'Fredoka';
     font-size: 18px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .form-text {
     font-family: 'Fredoka';
     font-size: 15px;
-    color: #0c0f0a;
+    color: white;
 }
 
 
@@ -1021,7 +1022,7 @@
     }
 
     .navContacto li a {
-        color: black;
+        color: white;
         
     }
 }
@@ -1035,7 +1036,7 @@
     }
 
     .navContacto li a {
-        color: black;
+        color: white;
        
     }
 }
@@ -1060,7 +1061,7 @@
 }*/
 
 .discografiaBlink {
-    background-image: url(../imagenes/logoindex.png);
+    background-image: url(../imagenes/fondohistoria.jpg);
     /* background-repeat: no-repeat;
     background-size: cover;*/
 }
@@ -1150,7 +1151,7 @@
     }
 
     .listaBlinkdiscografia ul li a {
-        color: black;
+        color: white;
         
     }
 
@@ -1200,7 +1201,7 @@
     }
 
     .listaBlinkdiscografia ul li a {
-        color: black;
+        color: white;
        
     }
 
@@ -1220,7 +1221,7 @@
 
 .navegarDiscografia li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
 
 }
@@ -1276,14 +1277,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .primerCd {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .iframeBuddha {
@@ -1310,14 +1311,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .escuchaCheshire {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .iframeCheshire {
@@ -1345,14 +1346,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .escuchaDude {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .iframeDude {
@@ -1379,14 +1380,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .escuchaEnema {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .iframeEnema {
@@ -1413,14 +1414,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .escuchaPants {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .iframePants {
@@ -1447,14 +1448,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .escuchaBlink {
     font-family:'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .iframeBlinkalbum {
@@ -1483,14 +1484,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .escuchaNeighborhoods {
     font-family:'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .iframeNeighborhoods {
@@ -1517,14 +1518,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .escuchaCalifornia {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .iframeCalifornia {
@@ -1551,14 +1552,14 @@
     margin-top: 5px;
     margin-left: 20px;
     padding: 10px 10px 10px 10px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .escuchaNine {
     font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
-    color: #0c0f0a;
+    color: white;
 }
 
 .iframeNine {
@@ -1575,7 +1576,7 @@
 
 .vuelve__Paginaprincipal {
     text-decoration: none;
-    color: #0c0f0a;
+    color: white;
 }
 
 .footerBlink182 {
@@ -1584,7 +1585,13 @@
 
 /*GALERIA*/
 
-
+.galeriaBlink182 {
+    background-image: url(../imagenes/fondohistoria.jpg);
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 .navGaleria {
     display: flex;
@@ -1599,7 +1606,7 @@
 
 .navGaleria li a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 
@@ -1636,143 +1643,24 @@
     animation-iteration-count: initial;
 }
 
-
-.la__Vuelta {
-    text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
-    color: #00296b;
+.imagen {
+    width: 100%;
 }
 
+.imagen img {
+    width: 100%;
+}
 
-.blinkGaleria {
+.spiAlm {
+    width: 100%;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(2, 800px);
-    grid-template-rows: repeat(7, 0.02fr);
-    grid-template-areas:
-        "galeria galeria"
-        "caricatura caricatura"
-        "trio recital3"
-        "juventud recitaldos"
-        "bateria recitaltres"
-        "mark travis"
-        "volver volver";
-    width: 100vw;
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 5px;
     row-gap: 5px;
 }
 
-.galeriaTitulo {
-    grid-area: galeria;
-    width: 100vw;
 
-}
-
-.blinkCaricatura {
-    grid-area: caricatura;
-}
-
-.markTomtravis {
-    grid-area: trio;
-}
-
-.imagenTomgaleria {
-    grid-area: tom;
-}
-
-.imagenTravisgaleria {
-    grid-area: travis;
-}
-
-.blinkJuventud {
-    grid-area: juventud;
-}
-
-.blinkRecital2 {
-    grid-area: recitaldos;
-}
-
-.travisBateria {
-    grid-area: bateria;
-}
-
-.blinkRecital3 {
-    grid-area: recitaltres;
-}
-
-.imagenMarkgaleria {
-    grid-area: mark;
-}
-
-.laVuelta {
-    grid-area: volver;
-
-}
-
-/*GALERIA*/
-
-.galeriaBlink182 {
-    background-image: url(../imagenes/logoindex.png);
-    background-repeat: repeat;
-    
-}
-
-.blinkJoven {
-    width: 600px;
-    padding: 5px;
-}
-
-.blinkRecital2 {
-    width: 600px;
-    padding: 5px;
-}
-
-.blinkRecital3 {
-    width: 600px;
-    padding: 5px;
-}
-
-.blinkRecital1 {
-    width: 600px;
-    padding: 5px;
-}
-
-.iniciosBlink182 {
-    width: 650px;
-    padding: 5px;
-}
-
-.markBajorosa {
-    width: 400px;
-    padding: 5px;
-}
-
-.travisRecital1 {
-    width: 500px;
-    padding-left: 5px;
-}
-
-.carritoGolf {
-    padding: 5px;
-}
-
-.blinkGrabacion {
-    width: 350px;
-}
-
-.blinkNegroyblanco {
-    width: 300px;
-}
-
-.volverIndex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.volver__Index {
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 .footerGaleria {
     display: flex;
@@ -1786,16 +1674,13 @@
 }
 
 @media screen and (max-width: 800px) {
-    /*.galeriaBlink182
-{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-}*/
 
 
-    .galeriaBlink182 {
+
+    .galeriaBlink182{
+        width: 100vw;
         overflow-x: hidden;
+
     }
 
     .listaBlinkgaleria ul {
@@ -1806,74 +1691,24 @@
     }
 
     .listaBlinkgaleria ul li a {
-        color: #0c0f0a;
+        color: white;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
-    .blinkJoven {
-        width: 300px;
-
-    }
-
-    .blinkRecital2 {
-        width: 273px;
-
-    }
-
-    .blinkRecital3 {
-        width: 306px;
-
-    }
-
-    .blinkRecital1 {
-        width: 273px;
-
-    }
-
-    .blinkTrio {
-        width: 532px;
-    }
-
-    .iniciosBlink182 {
-        width: 323px;
-
-    }
-
-    .markBajorosa {
-        width: 240px;
-    }
-
-    .travisRecital1 {
-        width: 348px;
-
-    }
-
-    .gorraBlink182 {
-        width: 175px;
-    }
-
-    .carritoGolf {
-        width: 210px;
-    }
-
-    .blinkGrabacion {
-        width: 242px;
-        padding: 8px;
-    }
-
-    .blinkNegroyblanco {
-        width: 175px;
-        padding: 5px;
-    }
-
-
+   .spiAlm {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+   }
 
 }
 
 @media screen and (max-width: 500px) {
-    .galeriaBlink182 {
+
+    .galeriaBlink182{
+        width: 100vw;
         overflow-x: hidden;
     }
+    
 
     .listaBlinkgaleria ul {
         display: flex;
@@ -1883,26 +1718,13 @@
     }
 
     .listaBlinkgaleria ul li a {
-        color: #0c0f0a;
+        color: white;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
-    .blinkTrio {
-        width: 258px;
-    }
-
-    .iniciosBlink182 {
-        width: 274px;
-
-    }
-
-    .travisRecital1 {
-        width: 205px;
-
-    }
-
-    .gorraBlink182 {
-        padding: 5px;
+    .spiAlm {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 
 

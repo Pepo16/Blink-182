@@ -1,7 +1,7 @@
 @media screen and (max-width: 500px) {
     .integrantesBlink182 {
         width: 100vw;
-        background-image: url(../imagenes/logoindex.png);
+        background-image: url(../imagenes/fondohistoria.jpg);
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr;
@@ -20,7 +20,7 @@
         }
 
         .navIntegrantes li a {
-            color: black;
+            color: white;
         }
 
         .contenedorFooterinicio a {
@@ -54,7 +54,7 @@
     .integrantesBlink182 {
         width: 100vw;
         max-width: 100%;
-        background-image: url(../imagenes/logoindex.png);
+        background-image: url(../imagenes/fondohistoria.jpg);
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 0.02fr 0.02fr 0.02fr 0.01fr 0.01fr;
@@ -73,7 +73,7 @@
         }
 
         .navIntegrantes li a {
-            color: black;
+            color: white;
 
         }
 

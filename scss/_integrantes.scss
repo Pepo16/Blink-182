@@ -1,7 +1,7 @@
 .integrantesBlink182 {
     margin: 0%;
     padding: 0%;
-    background-image: url(../imagenes/logoindex.png);
+    background-image: url(../imagenes/fondohistoria.jpg);
     /* display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     grid-template-rows: 0.3fr 0.2fr 0.2fr 0.02fr;
@@ -47,7 +47,7 @@
 
     .navIntegrantes li a {
         text-decoration: none;
-        color: black;
+        color: white;
         font-size: 20px;
         
     }
@@ -86,7 +86,7 @@
     }
 
 
-    $estilos: (color: #0c0f0a,
+    $estilos: (color: white,
         signo: 'Fredoka',
         tFuente: 25px,
         margen: 15px,
@@ -163,7 +163,7 @@
         }
 
         .foto__Mark {
-            color: #0c0f0a;
+            color: white;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             margin-top: 5px;
 
@@ -214,7 +214,7 @@
         }
 
         .foto__Tom {
-            color: #0c0f0a;
+            color: white;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             margin-top: 5px;
 
@@ -285,7 +285,7 @@
         }
 
         .foto__Travis {
-            color: #0c0f0a;
+            color: white;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             margin-top: 5px;
 
@@ -305,7 +305,7 @@
 
 .volver__Paginaa {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
