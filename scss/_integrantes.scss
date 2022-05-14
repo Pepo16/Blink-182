@@ -49,7 +49,7 @@
         text-decoration: none;
         color: white;
         font-size: 20px;
-        
+
     }
 
     @keyframes aparecer {
@@ -86,220 +86,256 @@
     }
 
 
-    $estilos: (color: white,
+    $estilos: (
+        color: white,
         signo: 'Fredoka',
         tFuente: 25px,
         margen: 15px,
         pad: 10px,
+        subrayado: underline,
+
     );
 
-    @mixin titulo ($text, $margin, $bottom, $tFuente, $fuente, $color) {
-        text-align: $text;
-        margin-top: $margin;
-        margin-bottom: $bottom;
-        font-size: $tFuente;
-        font-style: $fuente;
-        color: $color;
-    }
+@mixin titulo ($text, $margin, $bottom, $tFuente, $fuente, $color) {
+    text-align: $text;
+    margin-top: $margin;
+    margin-bottom: $bottom;
+    font-size: $tFuente;
+    font-style: $fuente;
+    color: $color;
+}
 
 
-    .contenedorMark {
-       /* background-image: url(../imagenes/logoindex.png);
+.contenedorMark {
+    /* background-image: url(../imagenes/logoindex.png);
         background-repeat: repeat;
         background-position: center;
         background-size: cover;*/
 
-        .tituloMark {
-            @include titulo(center, 30px, 15px, 40px, italic, #ff206e)
-        }
+    .tituloMark {
+        @include titulo(center, 30px, 15px, 40px, italic, #ff206e)
+    }
 
-        .introduccionMark {
-            color: map-get($estilos, color);
-            font-family: map-get($estilos, signo);
-            font-size: map-get($estilos, tFuente);
-            margin-top: map-get($estilos, margen);
-            padding: map-get($estilos, pad);
-        }
+    .introduccionMark {
+        color: map-get($estilos, color);
+        font-family: map-get($estilos, signo);
+        font-size: map-get($estilos, tFuente);
+        margin-top: map-get($estilos, margen);
+        padding: map-get($estilos, pad);
+        text-decoration: map-get($estilos, subrayado);
+    }
 
-        .otrosTrabajos {
-            text-align: left;
-            margin-top: 10px;
-            margin-left: 20px;
-            font-size: 30px;
-            font-style: italic;
-            color:#ff206e;
-        }
+    .noSub {
+        color: map-get($estilos, color);
+        font-family: map-get($estilos, signo);
+        font-size: map-get($estilos, tFuente);
+        margin-top: map-get($estilos, margen);
+        padding: map-get($estilos, pad);
+    }
 
-        .otros__Trabajos {
-            color: map-get($estilos, color);
-            font-family: map-get($estilos, signo);
-            font-size: map-get($estilos, tFuente);
-            margin-top: map-get($estilos, margen);
-            padding: map-get($estilos, pad);
-        }
+    .otrosTrabajos {
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 30px;
+        font-style: italic;
+        color: #ff206e;
+    }
 
-        .vidaMark {
-            text-align: left;
-            margin-top: 10px;
-            margin-left: 20px;
-            font-size: 30px;
-            font-style: italic;
-            color:#ff206e;
+    .otros__Trabajos {
+        color: map-get($estilos, color);
+        font-family: map-get($estilos, signo);
+        font-size: map-get($estilos, tFuente);
+        margin-top: map-get($estilos, margen);
+        padding: map-get($estilos, pad);
+    }
 
-        }
-
-        .vida__Mark {
-            color: map-get($estilos, color);
-            font-family: map-get($estilos, signo);
-            font-size: map-get($estilos, tFuente);
-            margin-top: map-get($estilos, margen);
-            padding: map-get($estilos, pad);
-        }
-
-
-
-        .imagenMark {
-            margin-top: 35px;
-        }
-
-        .foto__Mark {
-            color: white;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            margin-top: 5px;
-
-        }
+    .vidaMark {
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 30px;
+        font-style: italic;
+        color: #ff206e;
 
     }
 
-    .contenedorTom {
-       /* background-image: url(../imagenes/tomcontenedor.jpg);
+    .vida__Mark {
+        color: map-get($estilos, color);
+        font-family: map-get($estilos, signo);
+        font-size: map-get($estilos, tFuente);
+        margin-top: map-get($estilos, margen);
+        padding: map-get($estilos, pad);
+        text-decoration: map-get($estilos, subrayado)
+    }
+
+
+
+    .imagenMark {
+        margin-top: 35px;
+    }
+
+    .foto__Mark {
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 5px;
+
+    }
+
+}
+
+.contenedorTom {
+    /* background-image: url(../imagenes/tomcontenedor.jpg);
         @extend.contenedorMark;
         border: 0.2px dashed black;*/
 
-        .tomDelonge {
-            @include titulo(center, 30px, 15px, 40px, italic, #ff206e)
-        }
+    .tomDelonge {
+        @include titulo(center, 30px, 15px, 40px, italic, #ff206e)
+    }
 
-        .articleTom .introduccionTom {
-            color: map-get($estilos, color);
-            font-family: map-get($estilos, signo);
-            font-size: map-get($estilos, tFuente);
-            margin-top: map-get($estilos, margen);
-            padding: map-get($estilos, pad);
-
-        }
-
-        .vidaTom {
-            text-align: left;
-            margin-top: 10px;
-            margin-left: 20px;
-            font-size: 30px;
-            font-style: italic;
-            color:#ff206e;
-
-        }
-
-        .vida__Tom {
-            color: map-get($estilos, color);
-            font-family: map-get($estilos, signo);
-            font-size: map-get($estilos, tFuente);
-            margin-top: map-get($estilos, margen);
-            padding: map-get($estilos, pad);
-
-        }
-
-        .fotoTom {
-            text-align: right;
-            margin-top: 15px;
-        }
-
-        .foto__Tom {
-            color: white;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            margin-top: 5px;
-
-        }
+    .articleTom .introduccionTom {
+        color: map-get($estilos, color);
+        font-family: map-get($estilos, signo);
+        font-size: map-get($estilos, tFuente);
+        margin-top: map-get($estilos, margen);
+        padding: map-get($estilos, pad);
+        text-decoration: map-get($estilos, subrayado);
 
     }
 
-    .contenedorTravis {
-      /*  background-image: url(../imagenes/traviscontenderor.jpg);
+    .noSub {
+        color: map-get($estilos, color);
+        font-family: map-get($estilos, signo);
+        font-size: map-get($estilos, tFuente);
+        margin-top: map-get($estilos, margen);
+        padding: map-get($estilos, pad);
+    }
+
+    .vidaTom {
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 30px;
+        font-style: italic;
+        color: #ff206e;
+
+    }
+
+    .vida__Tom {
+        color: map-get($estilos, color);
+        font-family: map-get($estilos, signo);
+        font-size: map-get($estilos, tFuente);
+        margin-top: map-get($estilos, margen);
+        padding: map-get($estilos, pad);
+        text-decoration: map-get($estilos, subrayado);
+
+    }
+
+    .fotoTom {
+        text-align: right;
+        margin-top: 15px;
+    }
+
+    .foto__Tom {
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 5px;
+
+    }
+
+}
+
+.contenedorTravis {
+    /*  background-image: url(../imagenes/traviscontenderor.jpg);
         @extend.contenedorMark;*/
 
 
 
-        .tituloTravis .travisBarker {
-            @include titulo(center, 30px, 15px, 40px, italic, #ff206e)
-        }
-
-        .articleTravis .introduccionTravis {
-            color: map-get($estilos, color);
-            font-family: map-get($estilos, signo);
-            font-size: map-get($estilos, tFuente);
-            margin-top: map-get($estilos, margen);
-            padding: map-get($estilos, pad);
-
-        }
-
-        .vidaTravis {
-            text-align: left;
-            margin-top: 10px;
-            margin-left: 20px;
-            font-size: 30px;
-            font-style: italic;
-            color: #ff206e;
-
-        }
-
-        .vida__Travis {
-            color: map-get($estilos, color);
-            font-family: map-get($estilos, signo);
-            font-size: map-get($estilos, tFuente);
-            margin-top: map-get($estilos, margen);
-            padding: map-get($estilos, pad);
-        }
-
-        .fueraMusica {
-            text-align: left;
-            margin-top: 10px;
-            margin-left: 20px;
-            font-size: 30px;
-            font-style: italic;
-            color:#ff206e;
-
-        }
-
-        .fuera__Musica {
-            color: map-get($estilos, color);
-            font-family: map-get($estilos, signo);
-            font-size: map-get($estilos, tFuente);
-            margin-top: map-get($estilos, margen);
-            padding: map-get($estilos, pad);
-
-        }
-
-        .fotoTravis {
-            text-align: right;
-            margin-top: 15px;
-
-        }
-
-        .foto__Travis {
-            color: white;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            margin-top: 5px;
-
-        }
+    .tituloTravis .travisBarker {
+        @include titulo(center, 30px, 15px, 40px, italic, #ff206e)
     }
 
-    .volverPaginaa {
+    .articleTravis .introduccionTravis {
+        color: map-get($estilos, color);
+        font-family: map-get($estilos, signo);
+        font-size: map-get($estilos, tFuente);
+        margin-top: map-get($estilos, margen);
+        padding: map-get($estilos, pad);
+        text-decoration: map-get($estilos, subrayado );
+
+    }
+
+    .noSub {
+
+        color: map-get($estilos, color);
+        font-family: map-get($estilos, signo);
+        font-size: map-get($estilos, tFuente);
+        margin-top: map-get($estilos, margen);
+        padding: map-get($estilos, pad);
+
+    }
+
+    .vidaTravis {
+        text-align: left;
         margin-top: 10px;
-        margin-bottom: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-left: 20px;
+        font-size: 30px;
+        font-style: italic;
+        color: #ff206e;
 
     }
+
+    .vida__Travis {
+        color: map-get($estilos, color);
+        font-family: map-get($estilos, signo);
+        font-size: map-get($estilos, tFuente);
+        margin-top: map-get($estilos, margen);
+        padding: map-get($estilos, pad);
+        text-decoration: map-get($estilos, subrayado );
+    }
+
+    .fueraMusica {
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 30px;
+        font-style: italic;
+        color: #ff206e;
+
+    }
+
+    .fuera__Musica {
+        color: map-get($estilos, color);
+        font-family: map-get($estilos, signo);
+        font-size: map-get($estilos, tFuente);
+        margin-top: map-get($estilos, margen);
+        padding: map-get($estilos, pad);
+        text-decoration: map-get($estilos, subrayado );
+
+    }
+
+    .fotoTravis {
+        text-align: right;
+        margin-top: 15px;
+
+    }
+
+    .foto__Travis {
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 5px;
+
+    }
+}
+
+.volverPaginaa {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 }
 

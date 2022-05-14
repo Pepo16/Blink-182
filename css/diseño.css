@@ -278,17 +278,7 @@
 
 /*INTEGRANTES*/
 
-/*.integrantesBlink182
-{
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: 0.02fr 0.2fr 0.2fr 0.02fr;
-    grid-template-areas:
-    "navintegrantes navintegrantes" 
-    "tom tom"
-    "travis travis"
-    "volver footer";
-}*/
+
 
 .listaBlinkintegrantes {
     grid-area: navintegrantes;
@@ -644,16 +634,6 @@
 
 /*HISTORIA DE LA BANDA*/
 
-/*.lahistoriaBlink
-{
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr ;
-    grid-template-rows: 0.02fr 0.03fr 0.01fr;
-    grid-template-areas: 
-    "titulo titulo"
-    "texto texto"
-    "volver footer";
-}*/
 
 
 
@@ -698,11 +678,11 @@
 
 @media screen and (max-width: 800px) {
     .lahistoriaBlink {
-        
+
         width: 100vw;
         max-width: 100%;
         overflow-x: hidden;
-        
+
     }
 
     .historiaBlink {
@@ -721,14 +701,14 @@
 
     .listaBlinkhistoria ul li a {
         color: white;
-       
+
     }
 
     .articuloPrimerospasos {
         padding: 30px
     }
 
-    
+
 
 
     .superJovenes {
@@ -740,7 +720,7 @@
 
 @media screen and (max-width:500px) {
     .lahistoriaBlink {
-        
+
         width: 100vw;
         max-width: 100%;
         overflow-x: hidden;
@@ -755,12 +735,12 @@
 
     .listaBlinkhistoria ul li a {
         color: white;
-        
+
     }
 
     .articuloPrimerospasos {
         padding: 30px;
-        
+
     }
 
     .superJovenes {
@@ -828,7 +808,7 @@
     width: 100vw;
     overflow-x: hidden;
     background-image: url(../imagenes/fondohistoria.jpg);
-   
+
 
 
 }
@@ -836,7 +816,7 @@
 .historiaBlink {
     text-align: center;
     color: #ff206e;
-    font-family: 'Fredoka' ;
+    font-family: 'Fredoka';
     font-size: 25px;
 }
 
@@ -844,7 +824,18 @@
 
     font-family: 'Fredoka';
     color: white;
-    
+    padding: 30px;
+    line-height: 30px;
+    font-size: 23px;
+}
+
+.primerosPasos {
+    text-decoration: underline;
+}
+
+.noSubt {
+    font-family: 'Fredoka';
+    color: white;
     padding: 30px;
     line-height: 30px;
     font-size: 23px;
@@ -900,7 +891,7 @@
 .fondoAzul {
     background-image: url(../imagenes/fondohistoria.jpg);
     background-repeat: repeat;
-    
+
 }
 
 
@@ -968,7 +959,7 @@
 }
 
 .lTa {
-    font-family: 'Fredoka' ;
+    font-family: 'Fredoka';
     font-size: 18px;
     color: white;
 }
@@ -991,6 +982,11 @@
     color: white;
 }
 
+.introduciComentario {
+    color: black;
+    font-family: 'Fredoka' ;
+    font-size: 14px;
+}
 
 .volverPaginaprincipal {
     margin-top: 10px;
@@ -1023,7 +1019,7 @@
 
     .navContacto li a {
         color: white;
-        
+
     }
 }
 
@@ -1037,7 +1033,7 @@
 
     .navContacto li a {
         color: white;
-       
+
     }
 }
 
@@ -1152,7 +1148,7 @@
 
     .listaBlinkdiscografia ul li a {
         color: white;
-        
+
     }
 
     .footerBlink182 {
@@ -1202,7 +1198,7 @@
 
     .listaBlinkdiscografia ul li a {
         color: white;
-       
+
     }
 
 
@@ -1366,7 +1362,7 @@
     font-family: 'Fredoka';
     margin-top: 20px;
     margin-left: 6px;
-    color:#ff206e;
+    color: #ff206e;
     text-decoration: underline;
 }
 
@@ -1452,7 +1448,7 @@
 }
 
 .escuchaBlink {
-    font-family:'Fredoka';
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
     color: white;
@@ -1488,7 +1484,7 @@
 }
 
 .escuchaNeighborhoods {
-    font-family:'Fredoka';
+    font-family: 'Fredoka';
     margin-top: 5px;
     margin-left: 6px;
     color: white;
@@ -1677,7 +1673,7 @@
 
 
 
-    .galeriaBlink182{
+    .galeriaBlink182 {
         width: 100vw;
         overflow-x: hidden;
 
@@ -1695,20 +1691,20 @@
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
-   .spiAlm {
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
-   }
+    .spiAlm {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }
 
 @media screen and (max-width: 500px) {
 
-    .galeriaBlink182{
+    .galeriaBlink182 {
         width: 100vw;
         overflow-x: hidden;
     }
-    
+
 
     .listaBlinkgaleria ul {
         display: flex;

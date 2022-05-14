@@ -104,15 +104,18 @@
 }
 
 .letraRosa {
-    color: white; 
+    color: white;
     font-family: 'Fredoka';
     font-size: 30px;
     margin-top: 10px;
     padding: 25px 30px;
     background-image: url(../imagenes/fondohistoria.jpg);
     background-repeat: repeat;
-   
+    letter-spacing: 2px;
 
+    .parrafoImportante {
+        text-decoration: underline;
+    }
 
 }
 

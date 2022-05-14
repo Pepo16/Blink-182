@@ -67,7 +67,10 @@
   margin-top: 10px;
   padding: 25px 30px;
   background-image: url(../imagenes/fondohistoria.jpg);
-  background-repeat: repeat; }
+  background-repeat: repeat;
+  letter-spacing: 2px; }
+  .letraRosa .parrafoImportante {
+    text-decoration: underline; }
 
 .contenedor4 {
   width: auto;
@@ -182,6 +185,13 @@
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
+      padding: 10px;
+      text-decoration: underline; }
+    .integrantesBlink182 .contenedorMark .noSub {
+      color: white;
+      font-family: "Fredoka";
+      font-size: 25px;
+      margin-top: 15px;
       padding: 10px; }
     .integrantesBlink182 .contenedorMark .otrosTrabajos {
       text-align: left;
@@ -208,7 +218,8 @@
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
-      padding: 10px; }
+      padding: 10px;
+      text-decoration: underline; }
     .integrantesBlink182 .contenedorMark .imagenMark {
       margin-top: 35px; }
     .integrantesBlink182 .contenedorMark .foto__Mark {
@@ -231,6 +242,13 @@
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
+      padding: 10px;
+      text-decoration: underline; }
+    .integrantesBlink182 .contenedorTom .noSub {
+      color: white;
+      font-family: "Fredoka";
+      font-size: 25px;
+      margin-top: 15px;
       padding: 10px; }
     .integrantesBlink182 .contenedorTom .vidaTom {
       text-align: left;
@@ -244,7 +262,8 @@
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
-      padding: 10px; }
+      padding: 10px;
+      text-decoration: underline; }
     .integrantesBlink182 .contenedorTom .fotoTom {
       text-align: right;
       margin-top: 15px; }
@@ -267,6 +286,13 @@
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
+      padding: 10px;
+      text-decoration: underline; }
+    .integrantesBlink182 .contenedorTravis .noSub {
+      color: white;
+      font-family: "Fredoka";
+      font-size: 25px;
+      margin-top: 15px;
       padding: 10px; }
     .integrantesBlink182 .contenedorTravis .vidaTravis {
       text-align: left;
@@ -280,7 +306,8 @@
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
-      padding: 10px; }
+      padding: 10px;
+      text-decoration: underline; }
     .integrantesBlink182 .contenedorTravis .fueraMusica {
       text-align: left;
       margin-top: 10px;
@@ -293,7 +320,8 @@
       font-family: "Fredoka";
       font-size: 25px;
       margin-top: 15px;
-      padding: 10px; }
+      padding: 10px;
+      text-decoration: underline; }
     .integrantesBlink182 .contenedorTravis .fotoTravis {
       text-align: right;
       margin-top: 15px; }
