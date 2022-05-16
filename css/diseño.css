@@ -964,6 +964,12 @@
     color: white;
 }
 
+.form-label {
+    color: white;
+    font-family: 'Fredoka' ;
+    font-size: 14px;
+}
+
 .form-control {
     font-family: 'Fredoka';
     font-size: 18px;
